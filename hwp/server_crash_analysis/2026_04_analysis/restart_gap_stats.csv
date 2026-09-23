@@ -1,0 +1,2 @@
+n_failures,mean_restart_gap_s,std_restart_gap_s,min_restart_gap_s,max_restart_gap_s
+43,163.48837209302326,92.04123612428737,3.0,300.0

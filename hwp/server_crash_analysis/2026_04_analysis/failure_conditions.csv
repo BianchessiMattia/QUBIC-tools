@@ -1,0 +1,13 @@
+condition,n_total,n_failure,failure_rate_pct
+overall,572,43,7.5174825174825175
+recovered_after_restart = True,39,15,38.46153846153846
+recovered_after_restart = False,533,28,5.25328330206379
+direction_changed = True,133,16,12.030075187969924
+direction_changed = False,439,27,6.150341685649202
+target position = 1,76,19,25.0
+target position = 2,86,7,8.13953488372093
+target position = 3,92,9,9.782608695652174
+target position = 4,90,1,1.1111111111111112
+target position = 5,90,2,2.2222222222222223
+target position = 6,92,3,3.260869565217391
+target position = 7,46,2,4.3478260869565215

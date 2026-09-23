@@ -1,0 +1,27 @@
+dir 7 -> 1
+from position 0 between 6 and 7 backslash 320 steps
+position 6 width 120 steps
+from 6 to 5 4200 steps
+position 5 width 110 steps
+from 5 to 4 3590 steps 
+position 4 width 90 steps
+from 4 to 3 3010 steps
+position 3 width 90 steps
+from 3 to 2 3170 steps
+position 2 width 80 steps
+from 2 to 1 2910 steps
+position 1 width 70 steps
+
+dir 1 -> 7
+from position 0 between edge and 1 backslash 250 steps
+position 1 width 170 steps
+from 1 to 2 3150 steps
+position 2 width 100 steps
+from 2 to 3 3020 steps
+position 3 width 80 steps
+from 3 to 4 3080 steps
+position 4 width 90 steps
+from 4 to 5 3620 steps 
+position 5 width 90 steps
+from 5 to 6 3090 steps
+position 6 width 60 steps

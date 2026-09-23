@@ -1,0 +1,2472 @@
+005949: ---------------------------------------
+005949: [ CMD: GOTO 4 ]
+005949: * set_position()-INFO: trying to set pos_target: 4
+005951: set_direction(): 1-->7 
+005951: * set_position()-INFO: start reading pos 3, looking for pos_next: 4 (pos_target: 4)
+005951:  * pos_to_zero() CALL
+005951:  * pos_to_zero()-INFO: start reading pos 3
+005951:  * pos_to_zero()-INFO: using default seven_max_steps 120
+005951:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+005951:  * pos_to_zero()-INFO: using ensure_zero: 250
+005953:  * pos_to_zero()-SUCCESS: found 0 after moving 310 steps, then moved 250 ensure_zero steps
+005953:  * zero_to_edge() CALL
+010005:  * zero_to_edge()-SUCCESS: moved 2946 steps reading zero in the allowed range
+010005: * set_position()-INFO: wait 2500ms
+010008: * set_position()-SUCCESS: pos (4) == pos_target (4)
+010008: * set_position()-INFO-DST: D34: 3506 steps
+010008: SUCCESS going to position 4
+010008: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 4  |  position_old: 4
+010008: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+010152: ---------------------------------------
+010152: [ CMD: GOTO 5 ]
+010152: * set_position()-INFO: trying to set pos_target: 5
+010152: set_direction(): 1-->7 (already in spin direction - return with no delay)
+010152: * set_position()-INFO: start reading pos 4, looking for pos_next: 5 (pos_target: 5)
+010152:  * pos_to_zero() CALL
+010152:  * pos_to_zero()-INFO: start reading pos 4
+010152:  * pos_to_zero()-INFO: using default seven_max_steps 120
+010152:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+010152:  * pos_to_zero()-INFO: using ensure_zero: 250
+010153:  * pos_to_zero()-SUCCESS: found 0 after moving 55 steps, then moved 250 ensure_zero steps
+010153:  * zero_to_edge() CALL
+010205:  * zero_to_edge()-SUCCESS: moved 2756 steps reading zero in the allowed range
+010205: * set_position()-INFO: wait 2500ms
+010207: * set_position()-SUCCESS: pos (5) == pos_target (5)
+010207: * set_position()-INFO-DST: D45: 3061 steps
+010207: SUCCESS going to position 5
+010207: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+010207: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+010347: ---------------------------------------
+010347: [ CMD: GOTO 6 ]
+010347: * set_position()-INFO: trying to set pos_target: 6
+010347: set_direction(): 1-->7 (already in spin direction - return with no delay)
+010347: * set_position()-INFO: start reading pos 5, looking for pos_next: 6 (pos_target: 6)
+010347:  * pos_to_zero() CALL
+010347:  * pos_to_zero()-INFO: start reading pos 5
+010347:  * pos_to_zero()-INFO: using default seven_max_steps 120
+010347:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+010347:  * pos_to_zero()-INFO: using ensure_zero: 250
+010349:  * pos_to_zero()-SUCCESS: found 0 after moving 105 steps, then moved 250 ensure_zero steps
+010349:  * zero_to_edge() CALL
+010401:  * zero_to_edge()-SUCCESS: moved 2832 steps reading zero in the allowed range
+010401: * set_position()-INFO: wait 2500ms
+010403: * set_position()-SUCCESS: pos (6) == pos_target (6)
+010403: * set_position()-INFO-DST: D56: 3187 steps
+010403: SUCCESS going to position 6
+010403: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 6  |  position_old: 6
+010403: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+010543: ---------------------------------------
+010543: [ CMD: GOTO 5 ]
+010543: * set_position()-INFO: trying to set pos_target: 5
+010545: set_direction(): 7-->1 
+010545: * set_position()-INFO: start reading pos 6, looking for pos_next: 5 (pos_target: 5)
+010545:  * pos_to_zero() CALL
+010545:  * pos_to_zero()-INFO: start reading pos 6
+010545:  * pos_to_zero()-INFO: using default seven_max_steps 120
+010545:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+010545:  * pos_to_zero()-INFO: using ensure_zero: 325
+010548:  * pos_to_zero()-SUCCESS: found 0 after moving 325 steps, then moved 325 ensure_zero steps
+010548:  * zero_to_edge() CALL
+010600:  * zero_to_edge()-SUCCESS: moved 2886 steps reading zero in the allowed range
+010600: * set_position()-INFO: wait 2500ms
+010603: * set_position()-SUCCESS: pos (5) == pos_target (5)
+010603: * set_position()-INFO-DST: D65: 3536 steps
+010603: SUCCESS going to position 5
+010603: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+010603: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+010741: ---------------------------------------
+010741: [ CMD: GOTO 4 ]
+010741: * set_position()-INFO: trying to set pos_target: 4
+010741: set_direction(): 7-->1 (already in spin direction - return with no delay)
+010741: * set_position()-INFO: start reading pos 5, looking for pos_next: 4 (pos_target: 4)
+010741:  * pos_to_zero() CALL
+010741:  * pos_to_zero()-INFO: start reading pos 5
+010741:  * pos_to_zero()-INFO: using default seven_max_steps 120
+010741:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+010741:  * pos_to_zero()-INFO: using ensure_zero: 325
+010743:  * pos_to_zero()-SUCCESS: found 0 after moving 84 steps, then moved 325 ensure_zero steps
+010743:  * zero_to_edge() CALL
+010755:  * zero_to_edge()-SUCCESS: moved 2853 steps reading zero in the allowed range
+010755: * set_position()-INFO: wait 2500ms
+010757: * set_position()-SUCCESS: pos (4) == pos_target (4)
+010757: * set_position()-INFO-DST: D54: 3262 steps
+010757: SUCCESS going to position 4
+010757: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 4  |  position_old: 4
+010757: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+010936: ---------------------------------------
+010936: [ CMD: GOTO 3 ]
+010936: * set_position()-INFO: trying to set pos_target: 3
+010936: set_direction(): 7-->1 (already in spin direction - return with no delay)
+010936: * set_position()-INFO: start reading pos 4, looking for pos_next: 3 (pos_target: 3)
+010936:  * pos_to_zero() CALL
+010936:  * pos_to_zero()-INFO: start reading pos 4
+010936:  * pos_to_zero()-INFO: using default seven_max_steps 120
+010936:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+010936:  * pos_to_zero()-INFO: using ensure_zero: 325
+010938:  * pos_to_zero()-SUCCESS: found 0 after moving 10 steps, then moved 325 ensure_zero steps
+010938:  * zero_to_edge() CALL
+010949:  * zero_to_edge()-SUCCESS: moved 2621 steps reading zero in the allowed range
+010949: * set_position()-INFO: wait 2500ms
+010951: * set_position()-SUCCESS: pos (3) == pos_target (3)
+010951: * set_position()-INFO-DST: D43: 2956 steps
+010951: SUCCESS going to position 3
+010951: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 3  |  position_old: 3
+010951: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+011130: ---------------------------------------
+011130: [ CMD: GOTO 2 ]
+011130: * set_position()-INFO: trying to set pos_target: 2
+011130: set_direction(): 7-->1 (already in spin direction - return with no delay)
+011130: * set_position()-INFO: start reading pos 3, looking for pos_next: 2 (pos_target: 2)
+011130:  * pos_to_zero() CALL
+011130:  * pos_to_zero()-INFO: start reading pos 3
+011130:  * pos_to_zero()-INFO: using default seven_max_steps 120
+011130:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+011130:  * pos_to_zero()-INFO: using ensure_zero: 325
+011132:  * pos_to_zero()-SUCCESS: found 0 after moving 164 steps, then moved 325 ensure_zero steps
+011132:  * zero_to_edge() CALL
+011143:  * zero_to_edge()-SUCCESS: moved 2713 steps reading zero in the allowed range
+011143: * set_position()-INFO: wait 2500ms
+011146: * set_position()-SUCCESS: pos (2) == pos_target (2)
+011146: * set_position()-INFO-DST: D32: 3202 steps
+011146: SUCCESS going to position 2
+011146: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 2  |  position_old: 2
+011146: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+011328: ---------------------------------------
+011328: [ CMD: GOTO 3 ]
+011328: * set_position()-INFO: trying to set pos_target: 3
+011330: set_direction(): 1-->7 
+011330: * set_position()-INFO: start reading pos 2, looking for pos_next: 3 (pos_target: 3)
+011330:  * pos_to_zero() CALL
+011330:  * pos_to_zero()-INFO: start reading pos 2
+011330:  * pos_to_zero()-INFO: using default seven_max_steps 120
+011330:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+011330:  * pos_to_zero()-INFO: using ensure_zero: 250
+011332:  * pos_to_zero()-SUCCESS: found 0 after moving 348 steps, then moved 250 ensure_zero steps
+011332:  * zero_to_edge() CALL
+011344:  * zero_to_edge()-SUCCESS: moved 2905 steps reading zero in the allowed range
+011344: * set_position()-INFO: wait 2500ms
+011347: * set_position()-SUCCESS: pos (3) == pos_target (3)
+011347: * set_position()-INFO-DST: D23: 3503 steps
+011347: SUCCESS going to position 3
+011347: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 3  |  position_old: 3
+011347: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+011525: ---------------------------------------
+011525: [ CMD: GOTO 4 ]
+011525: * set_position()-INFO: trying to set pos_target: 4
+011525: set_direction(): 1-->7 (already in spin direction - return with no delay)
+011525: * set_position()-INFO: start reading pos 3, looking for pos_next: 4 (pos_target: 4)
+011525:  * pos_to_zero() CALL
+011525:  * pos_to_zero()-INFO: start reading pos 3
+011525:  * pos_to_zero()-INFO: using default seven_max_steps 120
+011525:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+011525:  * pos_to_zero()-INFO: using ensure_zero: 250
+011527:  * pos_to_zero()-SUCCESS: found 0 after moving 176 steps, then moved 250 ensure_zero steps
+011527:  * zero_to_edge() CALL
+011539:  * zero_to_edge()-SUCCESS: moved 2752 steps reading zero in the allowed range
+011539: * set_position()-INFO: wait 2500ms
+011541: * set_position()-SUCCESS: pos (4) == pos_target (4)
+011541: * set_position()-INFO-DST: D34: 3178 steps
+011541: SUCCESS going to position 4
+011541: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 4  |  position_old: 4
+011541: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+011721: ---------------------------------------
+011721: [ CMD: GOTO 5 ]
+011721: * set_position()-INFO: trying to set pos_target: 5
+011721: set_direction(): 1-->7 (already in spin direction - return with no delay)
+011721: * set_position()-INFO: start reading pos 4, looking for pos_next: 5 (pos_target: 5)
+011721:  * pos_to_zero() CALL
+011721:  * pos_to_zero()-INFO: start reading pos 4
+011721:  * pos_to_zero()-INFO: using default seven_max_steps 120
+011721:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+011721:  * pos_to_zero()-INFO: using ensure_zero: 250
+011722:  * pos_to_zero()-SUCCESS: found 0 after moving 82 steps, then moved 250 ensure_zero steps
+011722:  * zero_to_edge() CALL
+011734:  * zero_to_edge()-SUCCESS: moved 2757 steps reading zero in the allowed range
+011734: * set_position()-INFO: wait 2500ms
+011736: * set_position()-SUCCESS: pos (5) == pos_target (5)
+011736: * set_position()-INFO-DST: D45: 3089 steps
+011736: SUCCESS going to position 5
+011736: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+011736: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+011916: ---------------------------------------
+011916: [ CMD: GOTO 6 ]
+011916: * set_position()-INFO: trying to set pos_target: 6
+011916: set_direction(): 1-->7 (already in spin direction - return with no delay)
+011916: * set_position()-INFO: start reading pos 5, looking for pos_next: 6 (pos_target: 6)
+011916:  * pos_to_zero() CALL
+011916:  * pos_to_zero()-INFO: start reading pos 5
+011916:  * pos_to_zero()-INFO: using default seven_max_steps 120
+011916:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+011916:  * pos_to_zero()-INFO: using ensure_zero: 250
+011918:  * pos_to_zero()-SUCCESS: found 0 after moving 105 steps, then moved 250 ensure_zero steps
+011918:  * zero_to_edge() CALL
+011930:  * zero_to_edge()-SUCCESS: moved 2826 steps reading zero in the allowed range
+011930: * set_position()-INFO: wait 2500ms
+011932: * set_position()-SUCCESS: pos (6) == pos_target (6)
+011932: * set_position()-INFO-DST: D56: 3181 steps
+011932: SUCCESS going to position 6
+011932: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 6  |  position_old: 6
+011932: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+012112: ---------------------------------------
+012112: [ CMD: GOTO 5 ]
+012112: * set_position()-INFO: trying to set pos_target: 5
+012114: set_direction(): 7-->1 
+012114: * set_position()-INFO: start reading pos 6, looking for pos_next: 5 (pos_target: 5)
+012114:  * pos_to_zero() CALL
+012114:  * pos_to_zero()-INFO: start reading pos 6
+012114:  * pos_to_zero()-INFO: using default seven_max_steps 120
+012114:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+012114:  * pos_to_zero()-INFO: using ensure_zero: 325
+012116:  * pos_to_zero()-SUCCESS: found 0 after moving 298 steps, then moved 325 ensure_zero steps
+012116:  * zero_to_edge() CALL
+012129:  * zero_to_edge()-SUCCESS: moved 2884 steps reading zero in the allowed range
+012129: * set_position()-INFO: wait 2500ms
+012131: * set_position()-SUCCESS: pos (5) == pos_target (5)
+012131: * set_position()-INFO-DST: D65: 3507 steps
+012131: SUCCESS going to position 5
+012131: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+012131: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+012312: ---------------------------------------
+012312: [ CMD: GOTO 4 ]
+012312: * set_position()-INFO: trying to set pos_target: 4
+012312: set_direction(): 7-->1 (already in spin direction - return with no delay)
+012312: * set_position()-INFO: start reading pos 5, looking for pos_next: 4 (pos_target: 4)
+012312:  * pos_to_zero() CALL
+012312:  * pos_to_zero()-INFO: start reading pos 5
+012312:  * pos_to_zero()-INFO: using default seven_max_steps 120
+012312:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+012312:  * pos_to_zero()-INFO: using ensure_zero: 325
+012314:  * pos_to_zero()-SUCCESS: found 0 after moving 124 steps, then moved 325 ensure_zero steps
+012314:  * zero_to_edge() CALL
+012326:  * zero_to_edge()-SUCCESS: moved 2718 steps reading zero in the allowed range
+012326: * set_position()-INFO: wait 2500ms
+012328: * set_position()-SUCCESS: pos (4) == pos_target (4)
+012328: * set_position()-INFO-DST: D54: 3167 steps
+012328: SUCCESS going to position 4
+012328: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 4  |  position_old: 4
+012328: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+012508: ---------------------------------------
+012508: [ CMD: GOTO 3 ]
+012508: * set_position()-INFO: trying to set pos_target: 3
+012508: set_direction(): 7-->1 (already in spin direction - return with no delay)
+012508: * set_position()-INFO: start reading pos 4, looking for pos_next: 3 (pos_target: 3)
+012508:  * pos_to_zero() CALL
+012508:  * pos_to_zero()-INFO: start reading pos 4
+012508:  * pos_to_zero()-INFO: using default seven_max_steps 120
+012508:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+012508:  * pos_to_zero()-INFO: using ensure_zero: 325
+012510:  * pos_to_zero()-SUCCESS: found 0 after moving 160 steps, then moved 325 ensure_zero steps
+012510:  * zero_to_edge() CALL
+012521:  * zero_to_edge()-SUCCESS: moved 2570 steps reading zero in the allowed range
+012521: * set_position()-INFO: wait 2500ms
+012523: * set_position()-SUCCESS: pos (3) == pos_target (3)
+012523: * set_position()-INFO-DST: D43: 3055 steps
+012523: SUCCESS going to position 3
+012523: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 3  |  position_old: 3
+012523: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+012702: ---------------------------------------
+012702: [ CMD: GOTO 2 ]
+012702: * set_position()-INFO: trying to set pos_target: 2
+012702: set_direction(): 7-->1 (already in spin direction - return with no delay)
+012702: * set_position()-INFO: start reading pos 3, looking for pos_next: 2 (pos_target: 2)
+012702:  * pos_to_zero() CALL
+012702:  * pos_to_zero()-INFO: start reading pos 3
+012702:  * pos_to_zero()-INFO: using default seven_max_steps 120
+012702:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+012702:  * pos_to_zero()-INFO: using ensure_zero: 325
+012704:  * pos_to_zero()-SUCCESS: found 0 after moving 128 steps, then moved 325 ensure_zero steps
+012704:  * zero_to_edge() CALL
+012716:  * zero_to_edge()-SUCCESS: moved 2820 steps reading zero in the allowed range
+012716: * set_position()-INFO: wait 2500ms
+012718: * set_position()-SUCCESS: pos (2) == pos_target (2)
+012718: * set_position()-INFO-DST: D32: 3273 steps
+012718: SUCCESS going to position 2
+012718: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 2  |  position_old: 2
+012718: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+012859: ---------------------------------------
+012859: [ CMD: GOTO 3 ]
+012859: * set_position()-INFO: trying to set pos_target: 3
+012901: set_direction(): 1-->7 
+012901: * set_position()-INFO: start reading pos 2, looking for pos_next: 3 (pos_target: 3)
+012901:  * pos_to_zero() CALL
+012901:  * pos_to_zero()-INFO: start reading pos 2
+012901:  * pos_to_zero()-INFO: using default seven_max_steps 120
+012901:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+012901:  * pos_to_zero()-INFO: using ensure_zero: 250
+012903:  * pos_to_zero()-SUCCESS: found 0 after moving 396 steps, then moved 250 ensure_zero steps
+012903:  * zero_to_edge() CALL
+012916:  * zero_to_edge()-SUCCESS: moved 2988 steps reading zero in the allowed range
+012916: * set_position()-INFO: wait 2500ms
+012918: * set_position()-SUCCESS: pos (3) == pos_target (3)
+012918: * set_position()-INFO-DST: D23: 3634 steps
+012918: SUCCESS going to position 3
+012918: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 3  |  position_old: 3
+012918: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+013059: ---------------------------------------
+013059: [ CMD: GOTO 4 ]
+013059: * set_position()-INFO: trying to set pos_target: 4
+013059: set_direction(): 1-->7 (already in spin direction - return with no delay)
+013059: * set_position()-INFO: start reading pos 3, looking for pos_next: 4 (pos_target: 4)
+013059:  * pos_to_zero() CALL
+013059:  * pos_to_zero()-INFO: start reading pos 3
+013059:  * pos_to_zero()-INFO: using default seven_max_steps 120
+013059:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+013059:  * pos_to_zero()-INFO: using ensure_zero: 250
+013100:  * pos_to_zero()-SUCCESS: found 0 after moving 147 steps, then moved 250 ensure_zero steps
+013100:  * zero_to_edge() CALL
+013111:  * zero_to_edge()-SUCCESS: moved 2656 steps reading zero in the allowed range
+013111: * set_position()-INFO: wait 2500ms
+013114: * set_position()-SUCCESS: pos (4) == pos_target (4)
+013114: * set_position()-INFO-DST: D34: 3053 steps
+013114: SUCCESS going to position 4
+013114: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 4  |  position_old: 4
+013114: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+013254: ---------------------------------------
+013254: [ CMD: GOTO 5 ]
+013254: * set_position()-INFO: trying to set pos_target: 5
+013254: set_direction(): 1-->7 (already in spin direction - return with no delay)
+013254: * set_position()-INFO: start reading pos 4, looking for pos_next: 5 (pos_target: 5)
+013254:  * pos_to_zero() CALL
+013254:  * pos_to_zero()-INFO: start reading pos 4
+013254:  * pos_to_zero()-INFO: using default seven_max_steps 120
+013254:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+013254:  * pos_to_zero()-INFO: using ensure_zero: 250
+013256:  * pos_to_zero()-SUCCESS: found 0 after moving 155 steps, then moved 250 ensure_zero steps
+013256:  * zero_to_edge() CALL
+013307:  * zero_to_edge()-SUCCESS: moved 2712 steps reading zero in the allowed range
+013307: * set_position()-INFO: wait 2500ms
+013310: * set_position()-SUCCESS: pos (5) == pos_target (5)
+013310: * set_position()-INFO-DST: D45: 3117 steps
+013310: SUCCESS going to position 5
+013310: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+013310: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+013450: ---------------------------------------
+013450: [ CMD: GOTO 6 ]
+013450: * set_position()-INFO: trying to set pos_target: 6
+013450: set_direction(): 1-->7 (already in spin direction - return with no delay)
+013450: * set_position()-INFO: start reading pos 5, looking for pos_next: 6 (pos_target: 6)
+013450:  * pos_to_zero() CALL
+013450:  * pos_to_zero()-INFO: start reading pos 5
+013450:  * pos_to_zero()-INFO: using default seven_max_steps 120
+013450:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+013450:  * pos_to_zero()-INFO: using ensure_zero: 250
+013451:  * pos_to_zero()-SUCCESS: found 0 after moving 116 steps, then moved 250 ensure_zero steps
+013451:  * zero_to_edge() CALL
+013503:  * zero_to_edge()-SUCCESS: moved 2840 steps reading zero in the allowed range
+013503: * set_position()-INFO: wait 2500ms
+013506: * set_position()-SUCCESS: pos (6) == pos_target (6)
+013506: * set_position()-INFO-DST: D56: 3206 steps
+013506: SUCCESS going to position 6
+013506: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 6  |  position_old: 6
+013506: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+013703: ---------------------------------------
+013703: [ CMD: GOTO 5 ]
+013703: * set_position()-INFO: trying to set pos_target: 5
+013705: set_direction(): 7-->1 
+013705: * set_position()-INFO: start reading pos 6, looking for pos_next: 5 (pos_target: 5)
+013705:  * pos_to_zero() CALL
+013705:  * pos_to_zero()-INFO: start reading pos 6
+013705:  * pos_to_zero()-INFO: using default seven_max_steps 120
+013705:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+013705:  * pos_to_zero()-INFO: using ensure_zero: 325
+013707:  * pos_to_zero()-SUCCESS: found 0 after moving 318 steps, then moved 325 ensure_zero steps
+013707:  * zero_to_edge() CALL
+013720:  * zero_to_edge()-SUCCESS: moved 2893 steps reading zero in the allowed range
+013720: * set_position()-INFO: wait 2500ms
+013722: * set_position()-SUCCESS: pos (5) == pos_target (5)
+013722: * set_position()-INFO-DST: D65: 3536 steps
+013722: SUCCESS going to position 5
+013722: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+013722: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+013903: ---------------------------------------
+013903: [ CMD: GOTO 4 ]
+013903: * set_position()-INFO: trying to set pos_target: 4
+013903: set_direction(): 7-->1 (already in spin direction - return with no delay)
+013903: * set_position()-INFO: start reading pos 5, looking for pos_next: 4 (pos_target: 4)
+013903:  * pos_to_zero() CALL
+013903:  * pos_to_zero()-INFO: start reading pos 5
+013903:  * pos_to_zero()-INFO: using default seven_max_steps 120
+013903:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+013903:  * pos_to_zero()-INFO: using ensure_zero: 325
+013905:  * pos_to_zero()-SUCCESS: found 0 after moving 130 steps, then moved 325 ensure_zero steps
+013905:  * zero_to_edge() CALL
+013916:  * zero_to_edge()-SUCCESS: moved 2696 steps reading zero in the allowed range
+013916: * set_position()-INFO: wait 2500ms
+013918: * set_position()-SUCCESS: pos (4) == pos_target (4)
+013918: * set_position()-INFO-DST: D54: 3151 steps
+013918: SUCCESS going to position 4
+013918: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 4  |  position_old: 4
+013918: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+014058: ---------------------------------------
+014058: [ CMD: GOTO 3 ]
+014058: * set_position()-INFO: trying to set pos_target: 3
+014058: set_direction(): 7-->1 (already in spin direction - return with no delay)
+014058: * set_position()-INFO: start reading pos 4, looking for pos_next: 3 (pos_target: 3)
+014058:  * pos_to_zero() CALL
+014058:  * pos_to_zero()-INFO: start reading pos 4
+014058:  * pos_to_zero()-INFO: using default seven_max_steps 120
+014058:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+014058:  * pos_to_zero()-INFO: using ensure_zero: 325
+014100:  * pos_to_zero()-SUCCESS: found 0 after moving 164 steps, then moved 325 ensure_zero steps
+014100:  * zero_to_edge() CALL
+014111:  * zero_to_edge()-SUCCESS: moved 2557 steps reading zero in the allowed range
+014111: * set_position()-INFO: wait 2500ms
+014114: * set_position()-SUCCESS: pos (3) == pos_target (3)
+014114: * set_position()-INFO-DST: D43: 3046 steps
+014114: SUCCESS going to position 3
+014114: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 3  |  position_old: 3
+014114: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+014254: ---------------------------------------
+014254: [ CMD: GOTO 2 ]
+014254: * set_position()-INFO: trying to set pos_target: 2
+014254: set_direction(): 7-->1 (already in spin direction - return with no delay)
+014254: * set_position()-INFO: start reading pos 3, looking for pos_next: 2 (pos_target: 2)
+014254:  * pos_to_zero() CALL
+014254:  * pos_to_zero()-INFO: start reading pos 3
+014254:  * pos_to_zero()-INFO: using default seven_max_steps 120
+014254:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+014254:  * pos_to_zero()-INFO: using ensure_zero: 325
+014256:  * pos_to_zero()-SUCCESS: found 0 after moving 144 steps, then moved 325 ensure_zero steps
+014256:  * zero_to_edge() CALL
+014307:  * zero_to_edge()-SUCCESS: moved 2822 steps reading zero in the allowed range
+014308: * set_position()-INFO: wait 2500ms
+014310: * set_position()-SUCCESS: pos (2) == pos_target (2)
+014310: * set_position()-INFO-DST: D32: 3291 steps
+014310: SUCCESS going to position 2
+014310: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 2  |  position_old: 2
+014310: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+014449: ---------------------------------------
+014449: [ CMD: GOTO 3 ]
+014449: * set_position()-INFO: trying to set pos_target: 3
+014451: set_direction(): 1-->7 
+014451: * set_position()-INFO: start reading pos 2, looking for pos_next: 3 (pos_target: 3)
+014451:  * pos_to_zero() CALL
+014451:  * pos_to_zero()-INFO: start reading pos 2
+014451:  * pos_to_zero()-INFO: using default seven_max_steps 120
+014451:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+014451:  * pos_to_zero()-INFO: using ensure_zero: 250
+014454:  * pos_to_zero()-SUCCESS: found 0 after moving 407 steps, then moved 250 ensure_zero steps
+014454:  * zero_to_edge() CALL
+014506:  * zero_to_edge()-SUCCESS: moved 2994 steps reading zero in the allowed range
+014506: * set_position()-INFO: wait 2500ms
+014509: * set_position()-SUCCESS: pos (3) == pos_target (3)
+014509: * set_position()-INFO-DST: D23: 3651 steps
+014509: SUCCESS going to position 3
+014509: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 3  |  position_old: 3
+014509: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+014649: ---------------------------------------
+014649: [ CMD: GOTO 4 ]
+014649: * set_position()-INFO: trying to set pos_target: 4
+014649: set_direction(): 1-->7 (already in spin direction - return with no delay)
+014649: * set_position()-INFO: start reading pos 3, looking for pos_next: 4 (pos_target: 4)
+014649:  * pos_to_zero() CALL
+014649:  * pos_to_zero()-INFO: start reading pos 3
+014649:  * pos_to_zero()-INFO: using default seven_max_steps 120
+014649:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+014649:  * pos_to_zero()-INFO: using ensure_zero: 250
+014651:  * pos_to_zero()-SUCCESS: found 0 after moving 100 steps, then moved 250 ensure_zero steps
+014651:  * zero_to_edge() CALL
+014702:  * zero_to_edge()-SUCCESS: moved 2757 steps reading zero in the allowed range
+014702: * set_position()-INFO: wait 2500ms
+014705: * set_position()-SUCCESS: pos (4) == pos_target (4)
+014705: * set_position()-INFO-DST: D34: 3107 steps
+014705: SUCCESS going to position 4
+014705: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 4  |  position_old: 4
+014705: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+014845: ---------------------------------------
+014845: [ CMD: GOTO 5 ]
+014845: * set_position()-INFO: trying to set pos_target: 5
+014845: set_direction(): 1-->7 (already in spin direction - return with no delay)
+014845: * set_position()-INFO: start reading pos 4, looking for pos_next: 5 (pos_target: 5)
+014845:  * pos_to_zero() CALL
+014845:  * pos_to_zero()-INFO: start reading pos 4
+014845:  * pos_to_zero()-INFO: using default seven_max_steps 120
+014845:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+014845:  * pos_to_zero()-INFO: using ensure_zero: 250
+014847:  * pos_to_zero()-SUCCESS: found 0 after moving 129 steps, then moved 250 ensure_zero steps
+014847:  * zero_to_edge() CALL
+014858:  * zero_to_edge()-SUCCESS: moved 2684 steps reading zero in the allowed range
+014858: * set_position()-INFO: wait 2500ms
+014900: * set_position()-SUCCESS: pos (5) == pos_target (5)
+014900: * set_position()-INFO-DST: D45: 3063 steps
+014900: SUCCESS going to position 5
+014900: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+014900: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+015041: ---------------------------------------
+015041: [ CMD: GOTO 6 ]
+015041: * set_position()-INFO: trying to set pos_target: 6
+015041: set_direction(): 1-->7 (already in spin direction - return with no delay)
+015041: * set_position()-INFO: start reading pos 5, looking for pos_next: 6 (pos_target: 6)
+015041:  * pos_to_zero() CALL
+015041:  * pos_to_zero()-INFO: start reading pos 5
+015041:  * pos_to_zero()-INFO: using default seven_max_steps 120
+015041:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+015041:  * pos_to_zero()-INFO: using ensure_zero: 250
+015042:  * pos_to_zero()-SUCCESS: found 0 after moving 92 steps, then moved 250 ensure_zero steps
+015042:  * zero_to_edge() CALL
+015054:  * zero_to_edge()-SUCCESS: moved 2866 steps reading zero in the allowed range
+015054: * set_position()-INFO: wait 2500ms
+015057: * set_position()-SUCCESS: pos (6) == pos_target (6)
+015057: * set_position()-INFO-DST: D56: 3208 steps
+015057: SUCCESS going to position 6
+015057: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 6  |  position_old: 6
+015057: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+015236: ---------------------------------------
+015236: [ CMD: GOTO 5 ]
+015236: * set_position()-INFO: trying to set pos_target: 5
+015238: set_direction(): 7-->1 
+015238: * set_position()-INFO: start reading pos 6, looking for pos_next: 5 (pos_target: 5)
+015238:  * pos_to_zero() CALL
+015238:  * pos_to_zero()-INFO: start reading pos 6
+015238:  * pos_to_zero()-INFO: using default seven_max_steps 120
+015238:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+015238:  * pos_to_zero()-INFO: using ensure_zero: 325
+015240:  * pos_to_zero()-SUCCESS: found 0 after moving 300 steps, then moved 325 ensure_zero steps
+015240:  * zero_to_edge() CALL
+015252:  * zero_to_edge()-SUCCESS: moved 2801 steps reading zero in the allowed range
+015252: * set_position()-INFO: wait 2500ms
+015255: * set_position()-INFO: still pos (4) != pos_target (5) after waiting some time. Will try to enter depper in position using search method 1
+015255:  * edge_to_pos() CALL (using search_method: 1)
+015255:  * edge_to_pos()-INFO: using STEPS_INTO_POS: 3 steps (15 percent of default POS_STEPS[4])
+015255:  * edge_to_pos()-SUCCESS: pos 5 was found 3 times (STEPS_INTO_POS) after moving 58 steps
+015255: * set_position()-INFO: wait 2500ms more
+015257: * set_position()-SUCCESS: pos (5) == pos_target (5)
+015257: * set_position()-INFO-DST: D65: 3483 steps
+015257: SUCCESS going to position 5
+015257: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+015257: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+015438: ---------------------------------------
+015438: [ CMD: GOTO 4 ]
+015438: * set_position()-INFO: trying to set pos_target: 4
+015438: set_direction(): 7-->1 (already in spin direction - return with no delay)
+015438: * set_position()-INFO: start reading pos 5, looking for pos_next: 4 (pos_target: 4)
+015438:  * pos_to_zero() CALL
+015438:  * pos_to_zero()-INFO: start reading pos 5
+015438:  * pos_to_zero()-INFO: using default seven_max_steps 120
+015438:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+015438:  * pos_to_zero()-INFO: using ensure_zero: 325
+015440:  * pos_to_zero()-SUCCESS: found 0 after moving 118 steps, then moved 325 ensure_zero steps
+015440:  * zero_to_edge() CALL
+015451:  * zero_to_edge()-SUCCESS: moved 2769 steps reading zero in the allowed range
+015451: * set_position()-INFO: wait 2500ms
+015454: * set_position()-SUCCESS: pos (4) == pos_target (4)
+015454: * set_position()-INFO-DST: D54: 3212 steps
+015454: SUCCESS going to position 4
+015454: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 4  |  position_old: 4
+015454: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+015633: ---------------------------------------
+015633: [ CMD: GOTO 3 ]
+015633: * set_position()-INFO: trying to set pos_target: 3
+015633: set_direction(): 7-->1 (already in spin direction - return with no delay)
+015633: * set_position()-INFO: start reading pos 4, looking for pos_next: 3 (pos_target: 3)
+015633:  * pos_to_zero() CALL
+015633:  * pos_to_zero()-INFO: start reading pos 4
+015633:  * pos_to_zero()-INFO: using default seven_max_steps 120
+015633:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+015633:  * pos_to_zero()-INFO: using ensure_zero: 325
+015635:  * pos_to_zero()-SUCCESS: found 0 after moving 110 steps, then moved 325 ensure_zero steps
+015635:  * zero_to_edge() CALL
+015646:  * zero_to_edge()-SUCCESS: moved 2632 steps reading zero in the allowed range
+015646: * set_position()-INFO: wait 2500ms
+015649: * set_position()-SUCCESS: pos (3) == pos_target (3)
+015649: * set_position()-INFO-DST: D43: 3067 steps
+015649: SUCCESS going to position 3
+015649: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 3  |  position_old: 3
+015649: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+015834: ---------------------------------------
+015834: [ CMD: GOTO 2 ]
+015834: * set_position()-INFO: trying to set pos_target: 2
+015834: set_direction(): 7-->1 (already in spin direction - return with no delay)
+015834: * set_position()-INFO: start reading pos 3, looking for pos_next: 2 (pos_target: 2)
+015834:  * pos_to_zero() CALL
+015834:  * pos_to_zero()-INFO: start reading pos 3
+015834:  * pos_to_zero()-INFO: using default seven_max_steps 120
+015834:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+015834:  * pos_to_zero()-INFO: using ensure_zero: 325
+015836:  * pos_to_zero()-SUCCESS: found 0 after moving 70 steps, then moved 325 ensure_zero steps
+015836:  * zero_to_edge() CALL
+015848:  * zero_to_edge()-SUCCESS: moved 2858 steps reading zero in the allowed range
+015848: * set_position()-INFO: wait 2500ms
+015851: * set_position()-SUCCESS: pos (2) == pos_target (2)
+015851: * set_position()-INFO-DST: D32: 3253 steps
+015851: SUCCESS going to position 2
+015851: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 2  |  position_old: 2
+015851: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+020056: ---------------------------------------
+020056: [ CMD: GOTO 3 ]
+020056: * set_position()-INFO: trying to set pos_target: 3
+020057: set_direction(): 1-->7 
+020057: * set_position()-INFO: start reading pos 2, looking for pos_next: 3 (pos_target: 3)
+020057:  * pos_to_zero() CALL
+020057:  * pos_to_zero()-INFO: start reading pos 2
+020057:  * pos_to_zero()-INFO: using default seven_max_steps 120
+020057:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+020057:  * pos_to_zero()-INFO: using ensure_zero: 250
+020100:  * pos_to_zero()-SUCCESS: found 0 after moving 425 steps, then moved 250 ensure_zero steps
+020100:  * zero_to_edge() CALL
+020113:  * zero_to_edge()-SUCCESS: moved 2933 steps reading zero in the allowed range
+020113: * set_position()-INFO: wait 2500ms
+020115: * set_position()-SUCCESS: pos (3) == pos_target (3)
+020115: * set_position()-INFO-DST: D23: 3608 steps
+020115: SUCCESS going to position 3
+020115: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 3  |  position_old: 3
+020115: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+020253: ---------------------------------------
+020253: [ CMD: GOTO 4 ]
+020253: * set_position()-INFO: trying to set pos_target: 4
+020253: set_direction(): 1-->7 (already in spin direction - return with no delay)
+020253: * set_position()-INFO: start reading pos 3, looking for pos_next: 4 (pos_target: 4)
+020253:  * pos_to_zero() CALL
+020253:  * pos_to_zero()-INFO: start reading pos 3
+020253:  * pos_to_zero()-INFO: using default seven_max_steps 120
+020253:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+020253:  * pos_to_zero()-INFO: using ensure_zero: 250
+020255:  * pos_to_zero()-SUCCESS: found 0 after moving 129 steps, then moved 250 ensure_zero steps
+020255:  * zero_to_edge() CALL
+020307:  * zero_to_edge()-SUCCESS: moved 2759 steps reading zero in the allowed range
+020307: * set_position()-INFO: wait 2500ms
+020309: * set_position()-SUCCESS: pos (4) == pos_target (4)
+020309: * set_position()-INFO-DST: D34: 3138 steps
+020309: SUCCESS going to position 4
+020309: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 4  |  position_old: 4
+020309: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+020449: ---------------------------------------
+020449: [ CMD: GOTO 5 ]
+020449: * set_position()-INFO: trying to set pos_target: 5
+020449: set_direction(): 1-->7 (already in spin direction - return with no delay)
+020449: * set_position()-INFO: start reading pos 4, looking for pos_next: 5 (pos_target: 5)
+020449:  * pos_to_zero() CALL
+020449:  * pos_to_zero()-INFO: start reading pos 4
+020449:  * pos_to_zero()-INFO: using default seven_max_steps 120
+020449:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+020449:  * pos_to_zero()-INFO: using ensure_zero: 250
+020451:  * pos_to_zero()-SUCCESS: found 0 after moving 164 steps, then moved 250 ensure_zero steps
+020451:  * zero_to_edge() CALL
+020502:  * zero_to_edge()-SUCCESS: moved 2654 steps reading zero in the allowed range
+020502: * set_position()-INFO: wait 2500ms
+020505: * set_position()-SUCCESS: pos (5) == pos_target (5)
+020505: * set_position()-INFO-DST: D45: 3068 steps
+020505: SUCCESS going to position 5
+020505: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+020505: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+020645: ---------------------------------------
+020645: [ CMD: GOTO 6 ]
+020645: * set_position()-INFO: trying to set pos_target: 6
+020645: set_direction(): 1-->7 (already in spin direction - return with no delay)
+020645: * set_position()-INFO: start reading pos 5, looking for pos_next: 6 (pos_target: 6)
+020645:  * pos_to_zero() CALL
+020645:  * pos_to_zero()-INFO: start reading pos 5
+020645:  * pos_to_zero()-INFO: using default seven_max_steps 120
+020645:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+020645:  * pos_to_zero()-INFO: using ensure_zero: 250
+020647:  * pos_to_zero()-SUCCESS: found 0 after moving 124 steps, then moved 250 ensure_zero steps
+020647:  * zero_to_edge() CALL
+020659:  * zero_to_edge()-SUCCESS: moved 2879 steps reading zero in the allowed range
+020659: * set_position()-INFO: wait 2500ms
+020701: * set_position()-SUCCESS: pos (6) == pos_target (6)
+020701: * set_position()-INFO-DST: D56: 3253 steps
+020701: SUCCESS going to position 6
+020701: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 6  |  position_old: 6
+020701: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+020842: ---------------------------------------
+020842: [ CMD: GOTO 5 ]
+020842: * set_position()-INFO: trying to set pos_target: 5
+020843: set_direction(): 7-->1 
+020843: * set_position()-INFO: start reading pos 6, looking for pos_next: 5 (pos_target: 5)
+020843:  * pos_to_zero() CALL
+020843:  * pos_to_zero()-INFO: start reading pos 6
+020843:  * pos_to_zero()-INFO: using default seven_max_steps 120
+020843:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+020843:  * pos_to_zero()-INFO: using ensure_zero: 325
+020846:  * pos_to_zero()-SUCCESS: found 0 after moving 327 steps, then moved 325 ensure_zero steps
+020846:  * zero_to_edge() CALL
+020858:  * zero_to_edge()-SUCCESS: moved 2865 steps reading zero in the allowed range
+020858: * set_position()-INFO: wait 2500ms
+020901: * set_position()-SUCCESS: pos (5) == pos_target (5)
+020901: * set_position()-INFO-DST: D65: 3517 steps
+020901: SUCCESS going to position 5
+020901: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+020901: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+021039: ---------------------------------------
+021039: [ CMD: GOTO 4 ]
+021039: * set_position()-INFO: trying to set pos_target: 4
+021039: set_direction(): 7-->1 (already in spin direction - return with no delay)
+021039: * set_position()-INFO: start reading pos 5, looking for pos_next: 4 (pos_target: 4)
+021039:  * pos_to_zero() CALL
+021039:  * pos_to_zero()-INFO: start reading pos 5
+021039:  * pos_to_zero()-INFO: using default seven_max_steps 120
+021039:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+021039:  * pos_to_zero()-INFO: using ensure_zero: 325
+021041:  * pos_to_zero()-SUCCESS: found 0 after moving 147 steps, then moved 325 ensure_zero steps
+021041:  * zero_to_edge() CALL
+021053:  * zero_to_edge()-SUCCESS: moved 2804 steps reading zero in the allowed range
+021053: * set_position()-INFO: wait 2500ms
+021055: * set_position()-INFO: still pos (0) != pos_target (4) after waiting some time. Will try to enter depper in position using search method 1
+021055:  * edge_to_pos() CALL (using search_method: 1)
+021055:  * edge_to_pos()-INFO: reading pos=0 before time!. Will sleep 2.5s and continue moving until pos != 0
+021058:  * edge_to_pos()-ERROR: reading pos 0 after moving 80 steps. Shifting routing failed
+021058: * set_position()-INFO: edge_to_pos() returned ERROR but valid pos or steps (shifting routine failed), so will retry to position again
+021502: ****************  HWP CONTROL SOFTWARE  ****************
+021502: th_position_watcher(): Start
+021502: th_status_broadcast(): Start
+021502: th_emergency_halt(): Start
+021502: Creating and binding CMD socket
+021502: about to run init_routine()
+021502: running init_routine()
+021502: running init_motor_driver()
+021502: motor_driver_set command received: AC 29
+021502: running serial_port()
+021502: returning valid port
+021502: flushing port
+021502: port flushed
+021502: writing command to port: AC 29
+021503: could not write to port
+021503: checking return value: None
+021503:   * motor_driver_set()-ERROR: error while trying to send command
+021503:  *motor_driver_init()-ERROR: failed to set max current limit
+021503: init result: -1
+021503: init_routine() failed, please check log
+021503: Using:
+	 -TIMEDEL: 0.002
+	 -POS_TOLERANCE: 80
+	 -POS_MAX_STEPS: 3300
+	 -POS_MIN_STEPS: 2500
+	 -STEPS_INTO_POS: 1
+	 -SEVEN_MAX_STEPS: 120
+	 -BACKSLASH_STEPS: 150
+	 -ENSURE_ZERO: 100
+	 -RUN_CURRENT: 29
+	 -SB_CURRENT: 10
+021503: [Status Vars]		 halt: True  |  engaged: False  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 0  |  position_old: -2
+021503: [Operating Vars]	 direction: [NOT SET YET]	 timedel [s]: 0.001000 (500.00 pps)
+021503: Listening for commands on port 5454
+025933: ---------------------------------------
+025933: [ CMD: GOTO 2 ]
+025933: Error: system halted. Check errors first
+025933: Error: system is not engaged. Check errors first
+025933: set_position()-ERROR: HWP is NOT engaged and it is not called from engage_routine()
+025933: ERROR going to position 2, will retry to engage.
+025933: ** engage_routine() CALL
+025935: set_direction(): First direction set 7-->1 
+025935: INFO-engage_routine(): start reading pos 0
+025935:  * zero_to_edge() CALL
+025947:  * zero_to_edge()-SUCCESS: moved 2914 steps reading zero in the allowed range
+025947:  * edge_to_pos() CALL (using search_method: 2)
+025947:  * edge_to_pos()-INFO: will sweep 26 steps and latch bits state
+025947:  * edge_to_pos()-SUCCESS: found pos 3 after moving 26 steps
+025947: INFO-engage_routine(): first valid position read is pos 3
+025947: set_direction(): 7-->1 (already in spin direction - return with no delay)
+025947: set_position()-INFO: CALL trying to engage to pos 2
+025947: set_direction(): 7-->1 (already in spin direction - return with no delay)
+025947: * set_position()-INFO: start reading pos 3, looking for pos_next: 2 (pos_target: 2)
+025947:  * pos_to_zero() CALL
+025947:  * pos_to_zero()-INFO: start reading pos 3
+025947:  * pos_to_zero()-INFO: using default seven_max_steps 120
+025947:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+025947:  * pos_to_zero()-INFO: using ensure_zero: 325
+025949:  * pos_to_zero()-SUCCESS: found 0 after moving 126 steps, then moved 325 ensure_zero steps
+025949:  * zero_to_edge() CALL
+030001:  * zero_to_edge()-SUCCESS: moved 2731 steps reading zero in the allowed range
+030001: * set_position()-INFO: wait 2500ms
+030003: * set_position()-SUCCESS: pos (2) == pos_target (2)
+030003: * set_position()-INFO-DST: D32: 3182 steps
+030003: INFO-engage_routine(): Engaged! (pos 2)
+030003: HWP engaged, will retry to set position again!
+030003: * set_position()-INFO: trying to set pos_target: 2
+030003: * set_position()-Msg: already pos (2) == pos_target (2)
+030003: SUCCESS going to position 2
+030003: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 2  |  position_old: 2
+030003: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+030141: ---------------------------------------
+030141: [ CMD: GOTO 3 ]
+030141: * set_position()-INFO: trying to set pos_target: 3
+030143: set_direction(): 1-->7 
+030143: * set_position()-INFO: start reading pos 2, looking for pos_next: 3 (pos_target: 3)
+030143:  * pos_to_zero() CALL
+030143:  * pos_to_zero()-INFO: start reading pos 2
+030143:  * pos_to_zero()-INFO: using default seven_max_steps 120
+030143:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+030143:  * pos_to_zero()-INFO: using ensure_zero: 250
+030146:  * pos_to_zero()-SUCCESS: found 0 after moving 343 steps, then moved 250 ensure_zero steps
+030146:  * zero_to_edge() CALL
+030158:  * zero_to_edge()-SUCCESS: moved 2952 steps reading zero in the allowed range
+030158: * set_position()-INFO: wait 2500ms
+030201: * set_position()-SUCCESS: pos (3) == pos_target (3)
+030201: * set_position()-INFO-DST: D23: 3545 steps
+030201: SUCCESS going to position 3
+030201: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 3  |  position_old: 3
+030201: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+030339: ---------------------------------------
+030339: [ CMD: GOTO 4 ]
+030339: * set_position()-INFO: trying to set pos_target: 4
+030339: set_direction(): 1-->7 (already in spin direction - return with no delay)
+030339: * set_position()-INFO: start reading pos 3, looking for pos_next: 4 (pos_target: 4)
+030339:  * pos_to_zero() CALL
+030339:  * pos_to_zero()-INFO: start reading pos 3
+030339:  * pos_to_zero()-INFO: using default seven_max_steps 120
+030339:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+030339:  * pos_to_zero()-INFO: using ensure_zero: 250
+030341:  * pos_to_zero()-SUCCESS: found 0 after moving 151 steps, then moved 250 ensure_zero steps
+030341:  * zero_to_edge() CALL
+030352:  * zero_to_edge()-SUCCESS: moved 2737 steps reading zero in the allowed range
+030352: * set_position()-INFO: wait 2500ms
+030355: * set_position()-SUCCESS: pos (4) == pos_target (4)
+030355: * set_position()-INFO-DST: D34: 3138 steps
+030355: SUCCESS going to position 4
+030355: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 4  |  position_old: 4
+030355: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+030534: ---------------------------------------
+030534: [ CMD: GOTO 5 ]
+030534: * set_position()-INFO: trying to set pos_target: 5
+030534: set_direction(): 1-->7 (already in spin direction - return with no delay)
+030534: * set_position()-INFO: start reading pos 4, looking for pos_next: 5 (pos_target: 5)
+030534:  * pos_to_zero() CALL
+030534:  * pos_to_zero()-INFO: start reading pos 4
+030534:  * pos_to_zero()-INFO: using default seven_max_steps 120
+030534:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+030534:  * pos_to_zero()-INFO: using ensure_zero: 250
+030536:  * pos_to_zero()-SUCCESS: found 0 after moving 157 steps, then moved 250 ensure_zero steps
+030536:  * zero_to_edge() CALL
+030547:  * zero_to_edge()-SUCCESS: moved 2659 steps reading zero in the allowed range
+030547: * set_position()-INFO: wait 2500ms
+030550: * set_position()-INFO: still pos (4) != pos_target (5) after waiting some time. Will try to enter depper in position using search method 1
+030550:  * edge_to_pos() CALL (using search_method: 1)
+030550:  * edge_to_pos()-INFO: using STEPS_INTO_POS: 1 steps (8 percent of default POS_STEPS[4])
+030550:  * edge_to_pos()-SUCCESS: pos 5 was found 1 times (STEPS_INTO_POS) after moving 19 steps
+030550: * set_position()-INFO: wait 2500ms more
+030552: * set_position()-SUCCESS: pos (5) == pos_target (5)
+030552: * set_position()-INFO-DST: D45: 3084 steps
+030552: SUCCESS going to position 5
+030552: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+030552: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+030732: ---------------------------------------
+030732: [ CMD: GOTO 6 ]
+030732: * set_position()-INFO: trying to set pos_target: 6
+030732: set_direction(): 1-->7 (already in spin direction - return with no delay)
+030732: * set_position()-INFO: start reading pos 5, looking for pos_next: 6 (pos_target: 6)
+030732:  * pos_to_zero() CALL
+030732:  * pos_to_zero()-INFO: start reading pos 5
+030732:  * pos_to_zero()-INFO: using default seven_max_steps 120
+030732:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+030732:  * pos_to_zero()-INFO: using ensure_zero: 250
+030733:  * pos_to_zero()-SUCCESS: found 0 after moving 76 steps, then moved 250 ensure_zero steps
+030733:  * zero_to_edge() CALL
+030745:  * zero_to_edge()-SUCCESS: moved 2889 steps reading zero in the allowed range
+030745: * set_position()-INFO: wait 2500ms
+030748: * set_position()-SUCCESS: pos (6) == pos_target (6)
+030748: * set_position()-INFO-DST: D56: 3215 steps
+030748: SUCCESS going to position 6
+030748: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 6  |  position_old: 6
+030748: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+030928: ---------------------------------------
+030928: [ CMD: GOTO 5 ]
+030928: * set_position()-INFO: trying to set pos_target: 5
+030930: set_direction(): 7-->1 
+030930: * set_position()-INFO: start reading pos 6, looking for pos_next: 5 (pos_target: 5)
+030930:  * pos_to_zero() CALL
+030930:  * pos_to_zero()-INFO: start reading pos 6
+030930:  * pos_to_zero()-INFO: using default seven_max_steps 120
+030930:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+030930:  * pos_to_zero()-INFO: using ensure_zero: 325
+030933:  * pos_to_zero()-SUCCESS: found 0 after moving 318 steps, then moved 325 ensure_zero steps
+030933:  * zero_to_edge() CALL
+030945:  * zero_to_edge()-SUCCESS: moved 2912 steps reading zero in the allowed range
+030945: * set_position()-INFO: wait 2500ms
+030948: * set_position()-SUCCESS: pos (5) == pos_target (5)
+030948: * set_position()-INFO-DST: D65: 3555 steps
+030948: SUCCESS going to position 5
+030948: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+030948: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+031126: ---------------------------------------
+031126: [ CMD: GOTO 4 ]
+031126: * set_position()-INFO: trying to set pos_target: 4
+031126: set_direction(): 7-->1 (already in spin direction - return with no delay)
+031126: * set_position()-INFO: start reading pos 5, looking for pos_next: 4 (pos_target: 4)
+031126:  * pos_to_zero() CALL
+031126:  * pos_to_zero()-INFO: start reading pos 5
+031126:  * pos_to_zero()-INFO: using default seven_max_steps 120
+031126:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+031126:  * pos_to_zero()-INFO: using ensure_zero: 325
+031128:  * pos_to_zero()-SUCCESS: found 0 after moving 92 steps, then moved 325 ensure_zero steps
+031128:  * zero_to_edge() CALL
+031139:  * zero_to_edge()-SUCCESS: moved 2784 steps reading zero in the allowed range
+031139: * set_position()-INFO: wait 2500ms
+031142: * set_position()-INFO: still pos (0) != pos_target (4) after waiting some time. Will try to enter depper in position using search method 1
+031142:  * edge_to_pos() CALL (using search_method: 1)
+031142:  * edge_to_pos()-INFO: reading pos=0 before time!. Will sleep 2.5s and continue moving until pos != 0
+031145:  * edge_to_pos()-ERROR: reading pos 0 after moving 80 steps. Shifting routing failed
+031145: * set_position()-INFO: edge_to_pos() returned ERROR but valid pos or steps (shifting routine failed), so will retry to position again
+031501: ****************  HWP CONTROL SOFTWARE  ****************
+031501: th_position_watcher(): Start
+031501: th_status_broadcast(): Start
+031501: th_emergency_halt(): Start
+031501: Creating and binding CMD socket
+031501: about to run init_routine()
+031501: running init_routine()
+031501: running init_motor_driver()
+031501: motor_driver_set command received: AC 29
+031501: running serial_port()
+031501: returning valid port
+031501: flushing port
+031501: port flushed
+031501: writing command to port: AC 29
+031502: could not write to port
+031502: checking return value: None
+031502:   * motor_driver_set()-ERROR: error while trying to send command
+031502:  *motor_driver_init()-ERROR: failed to set max current limit
+031502: init result: -1
+031502: init_routine() failed, please check log
+031502: Using:
+	 -TIMEDEL: 0.002
+	 -POS_TOLERANCE: 80
+	 -POS_MAX_STEPS: 3300
+	 -POS_MIN_STEPS: 2500
+	 -STEPS_INTO_POS: 1
+	 -SEVEN_MAX_STEPS: 120
+	 -BACKSLASH_STEPS: 150
+	 -ENSURE_ZERO: 100
+	 -RUN_CURRENT: 29
+	 -SB_CURRENT: 10
+031502: [Status Vars]		 halt: True  |  engaged: False  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 0  |  position_old: -2
+031502: [Operating Vars]	 direction: [NOT SET YET]	 timedel [s]: 0.001000 (500.00 pps)
+031502: Listening for commands on port 5454
+040150: ---------------------------------------
+040150: [ CMD: GOTO 5 ]
+040150: Error: system halted. Check errors first
+040150: Error: system is not engaged. Check errors first
+040150: set_position()-ERROR: HWP is NOT engaged and it is not called from engage_routine()
+040150: ERROR going to position 5, will retry to engage.
+040150: ** engage_routine() CALL
+040152: set_direction(): First direction set 7-->1 
+040152: INFO-engage_routine(): start reading pos != 0. Reading pos 4 but could be a false reading, moving upwards and trying to re enter in position
+040154: set_direction(): 1-->7 
+040154:  * pos_to_zero() CALL
+040154:  * pos_to_zero()-INFO: start reading pos 4
+040154:  * pos_to_zero()-INFO: using default seven_max_steps 120
+040154:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+040154:  * pos_to_zero()-INFO: using ensure_zero: 250
+040156:  * pos_to_zero()-SUCCESS: found 0 after moving 197 steps, then moved 250 ensure_zero steps
+040157: set_direction(): 7-->1 
+040157: INFO-engage_routine(): pos_to_zero() returned SUCCESS using 447 steps, continue
+040157:  * zero_to_edge() CALL
+040200:  * zero_to_edge()-WARNIGNG: found pos != 0 after moving 534 steps, but is less than POS_MIN_STEPS (2500)
+040200:  * edge_to_pos() CALL (using search_method: 2)
+040200:  * edge_to_pos()-INFO: will sweep 26 steps and latch bits state
+040200:  * edge_to_pos()-SUCCESS: found pos 4 after moving 26 steps
+040200: INFO-engage_routine(): first valid position read is pos 4
+040200: set_direction(): 7-->1 (already in spin direction - return with no delay)
+040200: set_position()-INFO: CALL trying to engage to pos 3
+040200: set_direction(): 7-->1 (already in spin direction - return with no delay)
+040200: * set_position()-INFO: start reading pos 4, looking for pos_next: 3 (pos_target: 3)
+040200:  * pos_to_zero() CALL
+040200:  * pos_to_zero()-INFO: start reading pos 4
+040200:  * pos_to_zero()-INFO: using default seven_max_steps 120
+040200:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+040200:  * pos_to_zero()-INFO: using ensure_zero: 325
+040202:  * pos_to_zero()-SUCCESS: found 0 after moving 160 steps, then moved 325 ensure_zero steps
+040202:  * zero_to_edge() CALL
+040213:  * zero_to_edge()-SUCCESS: moved 2604 steps reading zero in the allowed range
+040213: * set_position()-INFO: wait 2500ms
+040215: * set_position()-SUCCESS: pos (3) == pos_target (3)
+040215: * set_position()-INFO-DST: D43: 3089 steps
+040215: INFO-engage_routine(): Engaged! (pos 3)
+040215: HWP engaged, will retry to set position again!
+040215: * set_position()-INFO: trying to set pos_target: 5
+040217: set_direction(): 1-->7 
+040217: * set_position()-INFO: start reading pos 3, looking for pos_next: 4 (pos_target: 5)
+040217:  * pos_to_zero() CALL
+040217:  * pos_to_zero()-INFO: start reading pos 3
+040217:  * pos_to_zero()-INFO: using default seven_max_steps 120
+040217:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+040217:  * pos_to_zero()-INFO: using ensure_zero: 250
+040220:  * pos_to_zero()-SUCCESS: found 0 after moving 325 steps, then moved 250 ensure_zero steps
+040220:  * zero_to_edge() CALL
+040232:  * zero_to_edge()-SUCCESS: moved 2902 steps reading zero in the allowed range
+040232:  * edge_to_pos() CALL (using search_method: 2)
+040232:  * edge_to_pos()-INFO: will sweep 40 steps and latch bits state
+040232:  * edge_to_pos()-SUCCESS: found pos 4 after moving 40 steps
+040232: * set_position()-INFO: current pos (4) matched pos_next (4)
+040232: * set_position()-INFO-DST: d34: 3517 steps (not so trustable due to search_method)
+040232: * set_position()-INFO: new pos_next (5) and continue - pos_target: 5)
+040232:  * pos_to_zero() CALL
+040232:  * pos_to_zero()-INFO: start reading pos 4
+040232:  * pos_to_zero()-INFO: using default seven_max_steps 120
+040232:   * ensure_zero_helper()-INFO: using default ensure_zero: 100 (ENSURE_ZERO)
+040232:  * pos_to_zero()-INFO: using ensure_zero: 100
+040233:  * pos_to_zero()-SUCCESS: found 0 after moving 115 steps, then moved 100 ensure_zero steps
+040233:  * zero_to_edge() CALL
+040245:  * zero_to_edge()-SUCCESS: moved 2825 steps reading zero in the allowed range
+040245: * set_position()-INFO: wait 2500ms
+040247: * set_position()-INFO: still pos (4) != pos_target (5) after waiting some time. Will try to enter depper in position using search method 1
+040247:  * edge_to_pos() CALL (using search_method: 1)
+040247:  * edge_to_pos()-INFO: using STEPS_INTO_POS: 1 steps (8 percent of default POS_STEPS[4])
+040247:  * edge_to_pos()-SUCCESS: pos 5 was found 1 times (STEPS_INTO_POS) after moving 6 steps
+040247: * set_position()-INFO: wait 2500ms more
+040250: * set_position()-SUCCESS: pos (5) == pos_target (5)
+040250: * set_position()-INFO-DST: d35: 6562 steps
+040250: SUCCESS going to position 5
+040250: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+040250: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+040435: ---------------------------------------
+040435: [ CMD: GOTO 6 ]
+040435: * set_position()-INFO: trying to set pos_target: 6
+040435: set_direction(): 1-->7 (already in spin direction - return with no delay)
+040435: * set_position()-INFO: start reading pos 5, looking for pos_next: 6 (pos_target: 6)
+040435:  * pos_to_zero() CALL
+040435:  * pos_to_zero()-INFO: start reading pos 5
+040435:  * pos_to_zero()-INFO: using default seven_max_steps 120
+040435:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+040435:  * pos_to_zero()-INFO: using ensure_zero: 250
+040436:  * pos_to_zero()-SUCCESS: found 0 after moving 77 steps, then moved 250 ensure_zero steps
+040436:  * zero_to_edge() CALL
+040448:  * zero_to_edge()-SUCCESS: moved 2854 steps reading zero in the allowed range
+040448: * set_position()-INFO: wait 2500ms
+040451: * set_position()-SUCCESS: pos (6) == pos_target (6)
+040451: * set_position()-INFO-DST: D56: 3181 steps
+040451: SUCCESS going to position 6
+040451: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 6  |  position_old: 6
+040451: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+040630: ---------------------------------------
+040630: [ CMD: GOTO 5 ]
+040630: * set_position()-INFO: trying to set pos_target: 5
+040632: set_direction(): 7-->1 
+040632: * set_position()-INFO: start reading pos 6, looking for pos_next: 5 (pos_target: 5)
+040632:  * pos_to_zero() CALL
+040632:  * pos_to_zero()-INFO: start reading pos 6
+040632:  * pos_to_zero()-INFO: using default seven_max_steps 120
+040632:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+040632:  * pos_to_zero()-INFO: using ensure_zero: 325
+040635:  * pos_to_zero()-SUCCESS: found 0 after moving 272 steps, then moved 325 ensure_zero steps
+040635:  * zero_to_edge() CALL
+040647:  * zero_to_edge()-SUCCESS: moved 2896 steps reading zero in the allowed range
+040647: * set_position()-INFO: wait 2500ms
+040650: * set_position()-INFO: still pos (4) != pos_target (5) after waiting some time. Will try to enter depper in position using search method 1
+040650:  * edge_to_pos() CALL (using search_method: 1)
+040650:  * edge_to_pos()-INFO: using STEPS_INTO_POS: 3 steps (15 percent of default POS_STEPS[4])
+040650:  * edge_to_pos()-SUCCESS: pos 5 was found 3 times (STEPS_INTO_POS) after moving 8 steps
+040650: * set_position()-INFO: wait 2500ms more
+040652: * set_position()-SUCCESS: pos (5) == pos_target (5)
+040652: * set_position()-INFO-DST: D65: 3500 steps
+040652: SUCCESS going to position 5
+040652: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+040652: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+040832: ---------------------------------------
+040832: [ CMD: GOTO 4 ]
+040832: * set_position()-INFO: trying to set pos_target: 4
+040832: set_direction(): 7-->1 (already in spin direction - return with no delay)
+040832: * set_position()-INFO: start reading pos 5, looking for pos_next: 4 (pos_target: 4)
+040832:  * pos_to_zero() CALL
+040832:  * pos_to_zero()-INFO: start reading pos 5
+040832:  * pos_to_zero()-INFO: using default seven_max_steps 120
+040832:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+040832:  * pos_to_zero()-INFO: using ensure_zero: 325
+040834:  * pos_to_zero()-SUCCESS: found 0 after moving 134 steps, then moved 325 ensure_zero steps
+040834:  * zero_to_edge() CALL
+040846:  * zero_to_edge()-SUCCESS: moved 2771 steps reading zero in the allowed range
+040846: * set_position()-INFO: wait 2500ms
+040848: * set_position()-SUCCESS: pos (4) == pos_target (4)
+040848: * set_position()-INFO-DST: D54: 3230 steps
+040848: SUCCESS going to position 4
+040848: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 4  |  position_old: 4
+040848: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+041028: ---------------------------------------
+041028: [ CMD: GOTO 3 ]
+041028: * set_position()-INFO: trying to set pos_target: 3
+041028: set_direction(): 7-->1 (already in spin direction - return with no delay)
+041028: * set_position()-INFO: start reading pos 4, looking for pos_next: 3 (pos_target: 3)
+041028:  * pos_to_zero() CALL
+041028:  * pos_to_zero()-INFO: start reading pos 4
+041028:  * pos_to_zero()-INFO: using default seven_max_steps 120
+041028:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+041028:  * pos_to_zero()-INFO: using ensure_zero: 325
+041029:  * pos_to_zero()-SUCCESS: found 0 after moving 10 steps, then moved 325 ensure_zero steps
+041029:  * zero_to_edge() CALL
+041040:  * zero_to_edge()-SUCCESS: moved 2696 steps reading zero in the allowed range
+041040: * set_position()-INFO: wait 2500ms
+041043: * set_position()-INFO: still pos (0) != pos_target (3) after waiting some time. Will try to enter depper in position using search method 1
+041043:  * edge_to_pos() CALL (using search_method: 1)
+041043:  * edge_to_pos()-INFO: reading pos=0 before time!. Will sleep 2.5s and continue moving until pos != 0
+041046:  * edge_to_pos()-ERROR: reading pos 0 after moving 80 steps. Shifting routing failed
+041046: * set_position()-INFO: edge_to_pos() returned ERROR but valid pos or steps (shifting routine failed), so will retry to position again
+041502: ****************  HWP CONTROL SOFTWARE  ****************
+041502: th_position_watcher(): Start
+041502: th_status_broadcast(): Start
+041502: th_emergency_halt(): Start
+041502: Creating and binding CMD socket
+041502: about to run init_routine()
+041502: running init_routine()
+041502: running init_motor_driver()
+041502: motor_driver_set command received: AC 29
+041502: running serial_port()
+041502: returning valid port
+041502: flushing port
+041502: port flushed
+041502: writing command to port: AC 29
+041503: could not write to port
+041503: checking return value: None
+041503:   * motor_driver_set()-ERROR: error while trying to send command
+041503:  *motor_driver_init()-ERROR: failed to set max current limit
+041503: init result: -1
+041503: init_routine() failed, please check log
+041503: Using:
+	 -TIMEDEL: 0.002
+	 -POS_TOLERANCE: 80
+	 -POS_MAX_STEPS: 3300
+	 -POS_MIN_STEPS: 2500
+	 -STEPS_INTO_POS: 1
+	 -SEVEN_MAX_STEPS: 120
+	 -BACKSLASH_STEPS: 150
+	 -ENSURE_ZERO: 100
+	 -RUN_CURRENT: 29
+	 -SB_CURRENT: 10
+041503: [Status Vars]		 halt: True  |  engaged: False  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 0  |  position_old: -2
+041503: [Operating Vars]	 direction: [NOT SET YET]	 timedel [s]: 0.001000 (500.00 pps)
+041503: Listening for commands on port 5454
+055807: ---------------------------------------
+055807: [ CMD: GOTO 2 ]
+055807: Error: system halted. Check errors first
+055807: Error: system is not engaged. Check errors first
+055807: set_position()-ERROR: HWP is NOT engaged and it is not called from engage_routine()
+055807: ERROR going to position 2, will retry to engage.
+055807: ** engage_routine() CALL
+055809: set_direction(): First direction set 7-->1 
+055809: INFO-engage_routine(): start reading pos 0
+055809:  * zero_to_edge() CALL
+055822:  * zero_to_edge()-SUCCESS: moved 3191 steps reading zero in the allowed range
+055822:  * edge_to_pos() CALL (using search_method: 2)
+055822:  * edge_to_pos()-INFO: will sweep 26 steps and latch bits state
+055823:  * edge_to_pos()-SUCCESS: found pos 2 after moving 26 steps
+055823: INFO-engage_routine(): first valid position read is pos 2
+055823: set_direction(): 7-->1 (already in spin direction - return with no delay)
+055823: set_position()-INFO: CALL trying to engage to pos 1
+055823: set_direction(): 7-->1 (already in spin direction - return with no delay)
+055823: * set_position()-INFO: start reading pos 2, looking for pos_next: 1 (pos_target: 1)
+055823:  * pos_to_zero() CALL
+055823:  * pos_to_zero()-INFO: start reading pos 2
+055823:  * pos_to_zero()-INFO: using default seven_max_steps 120
+055823:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+055823:  * pos_to_zero()-INFO: using ensure_zero: 325
+055824:  * pos_to_zero()-SUCCESS: found 0 after moving 81 steps, then moved 325 ensure_zero steps
+055824:  * zero_to_edge() CALL
+055835:  * zero_to_edge()-SUCCESS: moved 2552 steps reading zero in the allowed range
+055835: * set_position()-INFO: wait 2500ms
+055838: * set_position()-SUCCESS: pos (1) == pos_target (1)
+055838: * set_position()-INFO-DST: D21: 2958 steps
+055839: set_direction(): 1-->7 
+055839: INFO-engage_routine(): Engaged! (pos 1)
+055839: HWP engaged, will retry to set position again!
+055839: * set_position()-INFO: trying to set pos_target: 2
+055839: set_direction(): 1-->7 (already in spin direction - return with no delay)
+055839: set_direction(): 1-->7 (already in spin direction - return with no delay)
+055839: * set_position()-INFO: start reading pos 1, looking for pos_next: 2 (pos_target: 2)
+055839:  * pos_to_zero() CALL
+055839:  * pos_to_zero()-INFO: start reading pos 1
+055839:  * pos_to_zero()-INFO: using default seven_max_steps 120
+055839:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+055839:  * pos_to_zero()-INFO: using ensure_zero: 325
+055842:  * pos_to_zero()-SUCCESS: found 0 after moving 334 steps, then moved 325 ensure_zero steps
+055842:  * zero_to_edge() CALL
+055854:  * zero_to_edge()-SUCCESS: moved 2847 steps reading zero in the allowed range
+055854: * set_position()-INFO: wait 2500ms
+055857: * set_position()-SUCCESS: pos (2) == pos_target (2)
+055857: * set_position()-INFO-DST: D12: 3506 steps
+055857: SUCCESS going to position 2
+055857: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 2  |  position_old: 2
+055857: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+060037: ---------------------------------------
+060037: [ CMD: GOTO 3 ]
+060037: * set_position()-INFO: trying to set pos_target: 3
+060037: set_direction(): 1-->7 (already in spin direction - return with no delay)
+060037: * set_position()-INFO: start reading pos 2, looking for pos_next: 3 (pos_target: 3)
+060037:  * pos_to_zero() CALL
+060037:  * pos_to_zero()-INFO: start reading pos 2
+060037:  * pos_to_zero()-INFO: using default seven_max_steps 120
+060037:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+060037:  * pos_to_zero()-INFO: using ensure_zero: 250
+060039:  * pos_to_zero()-SUCCESS: found 0 after moving 83 steps, then moved 250 ensure_zero steps
+060039:  * zero_to_edge() CALL
+060050:  * zero_to_edge()-SUCCESS: moved 2785 steps reading zero in the allowed range
+060050: * set_position()-INFO: wait 2500ms
+060053: * set_position()-SUCCESS: pos (3) == pos_target (3)
+060053: * set_position()-INFO-DST: D23: 3118 steps
+060053: SUCCESS going to position 3
+060053: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 3  |  position_old: 3
+060053: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+060233: ---------------------------------------
+060233: [ CMD: GOTO 4 ]
+060233: * set_position()-INFO: trying to set pos_target: 4
+060233: set_direction(): 1-->7 (already in spin direction - return with no delay)
+060233: * set_position()-INFO: start reading pos 3, looking for pos_next: 4 (pos_target: 4)
+060233:  * pos_to_zero() CALL
+060233:  * pos_to_zero()-INFO: start reading pos 3
+060233:  * pos_to_zero()-INFO: using default seven_max_steps 120
+060233:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+060233:  * pos_to_zero()-INFO: using ensure_zero: 250
+060234:  * pos_to_zero()-SUCCESS: found 0 after moving 109 steps, then moved 250 ensure_zero steps
+060234:  * zero_to_edge() CALL
+060246:  * zero_to_edge()-SUCCESS: moved 2793 steps reading zero in the allowed range
+060246: * set_position()-INFO: wait 2500ms
+060248: * set_position()-SUCCESS: pos (4) == pos_target (4)
+060248: * set_position()-INFO-DST: D34: 3152 steps
+060248: SUCCESS going to position 4
+060248: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 4  |  position_old: 4
+060248: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+060428: ---------------------------------------
+060428: [ CMD: GOTO 5 ]
+060428: * set_position()-INFO: trying to set pos_target: 5
+060428: set_direction(): 1-->7 (already in spin direction - return with no delay)
+060428: * set_position()-INFO: start reading pos 4, looking for pos_next: 5 (pos_target: 5)
+060428:  * pos_to_zero() CALL
+060428:  * pos_to_zero()-INFO: start reading pos 4
+060428:  * pos_to_zero()-INFO: using default seven_max_steps 120
+060428:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+060428:  * pos_to_zero()-INFO: using ensure_zero: 250
+060429:  * pos_to_zero()-SUCCESS: found 0 after moving 98 steps, then moved 250 ensure_zero steps
+060429:  * zero_to_edge() CALL
+060441:  * zero_to_edge()-SUCCESS: moved 2698 steps reading zero in the allowed range
+060441: * set_position()-INFO: wait 2500ms
+060443: * set_position()-SUCCESS: pos (5) == pos_target (5)
+060443: * set_position()-INFO-DST: D45: 3046 steps
+060443: SUCCESS going to position 5
+060443: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+060443: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+060625: ---------------------------------------
+060625: [ CMD: GOTO 6 ]
+060625: * set_position()-INFO: trying to set pos_target: 6
+060625: set_direction(): 1-->7 (already in spin direction - return with no delay)
+060625: * set_position()-INFO: start reading pos 5, looking for pos_next: 6 (pos_target: 6)
+060625:  * pos_to_zero() CALL
+060625:  * pos_to_zero()-INFO: start reading pos 5
+060625:  * pos_to_zero()-INFO: using default seven_max_steps 120
+060625:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+060625:  * pos_to_zero()-INFO: using ensure_zero: 250
+060627:  * pos_to_zero()-SUCCESS: found 0 after moving 125 steps, then moved 250 ensure_zero steps
+060627:  * zero_to_edge() CALL
+060639:  * zero_to_edge()-SUCCESS: moved 2872 steps reading zero in the allowed range
+060639: * set_position()-INFO: wait 2500ms
+060641: * set_position()-SUCCESS: pos (6) == pos_target (6)
+060641: * set_position()-INFO-DST: D56: 3247 steps
+060641: SUCCESS going to position 6
+060641: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 6  |  position_old: 6
+060641: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+060821: ---------------------------------------
+060821: [ CMD: GOTO 5 ]
+060821: * set_position()-INFO: trying to set pos_target: 5
+060822: set_direction(): 7-->1 
+060822: * set_position()-INFO: start reading pos 6, looking for pos_next: 5 (pos_target: 5)
+060822:  * pos_to_zero() CALL
+060822:  * pos_to_zero()-INFO: start reading pos 6
+060822:  * pos_to_zero()-INFO: using default seven_max_steps 120
+060822:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+060822:  * pos_to_zero()-INFO: using ensure_zero: 325
+060825:  * pos_to_zero()-SUCCESS: found 0 after moving 324 steps, then moved 325 ensure_zero steps
+060825:  * zero_to_edge() CALL
+060837:  * zero_to_edge()-SUCCESS: moved 2886 steps reading zero in the allowed range
+060837: * set_position()-INFO: wait 2500ms
+060840: * set_position()-SUCCESS: pos (5) == pos_target (5)
+060840: * set_position()-INFO-DST: D65: 3535 steps
+060840: SUCCESS going to position 5
+060840: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+060840: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+061018: ---------------------------------------
+061018: [ CMD: GOTO 4 ]
+061018: * set_position()-INFO: trying to set pos_target: 4
+061018: set_direction(): 7-->1 (already in spin direction - return with no delay)
+061018: * set_position()-INFO: start reading pos 5, looking for pos_next: 4 (pos_target: 4)
+061018:  * pos_to_zero() CALL
+061018:  * pos_to_zero()-INFO: start reading pos 5
+061018:  * pos_to_zero()-INFO: using default seven_max_steps 120
+061018:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+061018:  * pos_to_zero()-INFO: using ensure_zero: 325
+061020:  * pos_to_zero()-SUCCESS: found 0 after moving 122 steps, then moved 325 ensure_zero steps
+061020:  * zero_to_edge() CALL
+061032:  * zero_to_edge()-SUCCESS: moved 2808 steps reading zero in the allowed range
+061032: * set_position()-INFO: wait 2500ms
+061034: * set_position()-INFO: still pos (0) != pos_target (4) after waiting some time. Will try to enter depper in position using search method 1
+061034:  * edge_to_pos() CALL (using search_method: 1)
+061034:  * edge_to_pos()-INFO: reading pos=0 before time!. Will sleep 2.5s and continue moving until pos != 0
+061037:  * edge_to_pos()-ERROR: reading pos 0 after moving 80 steps. Shifting routing failed
+061037: * set_position()-INFO: edge_to_pos() returned ERROR but valid pos or steps (shifting routine failed), so will retry to position again
+061502: ****************  HWP CONTROL SOFTWARE  ****************
+061502: th_position_watcher(): Start
+061502: th_status_broadcast(): Start
+061502: Creating and binding CMD socket
+061502: th_emergency_halt(): Start
+061502: about to run init_routine()
+061502: running init_routine()
+061502: running init_motor_driver()
+061502: motor_driver_set command received: AC 29
+061502: running serial_port()
+061502: returning valid port
+061502: flushing port
+061502: port flushed
+061502: writing command to port: AC 29
+061503: could not write to port
+061503: checking return value: None
+061503:   * motor_driver_set()-ERROR: error while trying to send command
+061503:  *motor_driver_init()-ERROR: failed to set max current limit
+061503: init result: -1
+061503: init_routine() failed, please check log
+061503: Using:
+	 -TIMEDEL: 0.002
+	 -POS_TOLERANCE: 80
+	 -POS_MAX_STEPS: 3300
+	 -POS_MIN_STEPS: 2500
+	 -STEPS_INTO_POS: 1
+	 -SEVEN_MAX_STEPS: 120
+	 -BACKSLASH_STEPS: 150
+	 -ENSURE_ZERO: 100
+	 -RUN_CURRENT: 29
+	 -SB_CURRENT: 10
+061503: [Status Vars]		 halt: True  |  engaged: False  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 0  |  position_old: -2
+061503: [Operating Vars]	 direction: [NOT SET YET]	 timedel [s]: 0.001000 (500.00 pps)
+061503: Listening for commands on port 5454
+070134: ---------------------------------------
+070134: [ CMD: GOTO 2 ]
+070134: Error: system halted. Check errors first
+070134: Error: system is not engaged. Check errors first
+070134: set_position()-ERROR: HWP is NOT engaged and it is not called from engage_routine()
+070134: ERROR going to position 2, will retry to engage.
+070134: ** engage_routine() CALL
+070136: set_direction(): First direction set 7-->1 
+070136: INFO-engage_routine(): start reading pos 0
+070136:  * zero_to_edge() CALL
+070138:  * zero_to_edge()-WARNIGNG: found pos != 0 after moving 389 steps, but is less than POS_MIN_STEPS (2500)
+070138:  * edge_to_pos() CALL (using search_method: 2)
+070138:  * edge_to_pos()-INFO: will sweep 26 steps and latch bits state
+070138:  * edge_to_pos()-SUCCESS: found pos 4 after moving 26 steps
+070138: INFO-engage_routine(): first valid position read is pos 4
+070138: set_direction(): 7-->1 (already in spin direction - return with no delay)
+070138: set_position()-INFO: CALL trying to engage to pos 3
+070138: set_direction(): 7-->1 (already in spin direction - return with no delay)
+070138: * set_position()-INFO: start reading pos 4, looking for pos_next: 3 (pos_target: 3)
+070138:  * pos_to_zero() CALL
+070138:  * pos_to_zero()-INFO: start reading pos 4
+070138:  * pos_to_zero()-INFO: using default seven_max_steps 120
+070138:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+070138:  * pos_to_zero()-INFO: using ensure_zero: 325
+070140:  * pos_to_zero()-SUCCESS: found 0 after moving 95 steps, then moved 325 ensure_zero steps
+070140:  * zero_to_edge() CALL
+070151:  * zero_to_edge()-SUCCESS: moved 2562 steps reading zero in the allowed range
+070151: * set_position()-INFO: wait 2500ms
+070153: * set_position()-INFO: still pos (1) != pos_target (3) after waiting some time. Will try to enter depper in position using search method 1
+070153:  * edge_to_pos() CALL (using search_method: 1)
+070153:  * edge_to_pos()-INFO: using STEPS_INTO_POS: 4 steps (15 percent of default POS_STEPS[2])
+070153:  * edge_to_pos()-SUCCESS: pos 3 was found 4 times (STEPS_INTO_POS) after moving 49 steps
+070153: * set_position()-INFO: wait 2500ms more
+070156: * set_position()-SUCCESS: pos (3) == pos_target (3)
+070156: * set_position()-INFO-DST: D43: 3030 steps
+070156: INFO-engage_routine(): Engaged! (pos 3)
+070156: HWP engaged, will retry to set position again!
+070156: * set_position()-INFO: trying to set pos_target: 2
+070156: set_direction(): 7-->1 (already in spin direction - return with no delay)
+070156: * set_position()-INFO: start reading pos 3, looking for pos_next: 2 (pos_target: 2)
+070156:  * pos_to_zero() CALL
+070156:  * pos_to_zero()-INFO: start reading pos 3
+070156:  * pos_to_zero()-INFO: using default seven_max_steps 120
+070156:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+070156:  * pos_to_zero()-INFO: using ensure_zero: 325
+070158:  * pos_to_zero()-SUCCESS: found 0 after moving 166 steps, then moved 325 ensure_zero steps
+070158:  * zero_to_edge() CALL
+070209:  * zero_to_edge()-SUCCESS: moved 2726 steps reading zero in the allowed range
+070209: * set_position()-INFO: wait 2500ms
+070212: * set_position()-SUCCESS: pos (2) == pos_target (2)
+070212: * set_position()-INFO-DST: D32: 3217 steps
+070212: SUCCESS going to position 2
+070212: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 2  |  position_old: 2
+070212: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+070351: ---------------------------------------
+070351: [ CMD: GOTO 3 ]
+070351: * set_position()-INFO: trying to set pos_target: 3
+070353: set_direction(): 1-->7 
+070353: * set_position()-INFO: start reading pos 2, looking for pos_next: 3 (pos_target: 3)
+070353:  * pos_to_zero() CALL
+070353:  * pos_to_zero()-INFO: start reading pos 2
+070353:  * pos_to_zero()-INFO: using default seven_max_steps 120
+070353:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+070353:  * pos_to_zero()-INFO: using ensure_zero: 250
+070355:  * pos_to_zero()-SUCCESS: found 0 after moving 360 steps, then moved 250 ensure_zero steps
+070355:  * zero_to_edge() CALL
+070408:  * zero_to_edge()-SUCCESS: moved 2954 steps reading zero in the allowed range
+070408: * set_position()-INFO: wait 2500ms
+070410: * set_position()-SUCCESS: pos (3) == pos_target (3)
+070410: * set_position()-INFO-DST: D23: 3564 steps
+070410: SUCCESS going to position 3
+070410: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 3  |  position_old: 3
+070410: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+070548: ---------------------------------------
+070548: [ CMD: GOTO 4 ]
+070548: * set_position()-INFO: trying to set pos_target: 4
+070548: set_direction(): 1-->7 (already in spin direction - return with no delay)
+070548: * set_position()-INFO: start reading pos 3, looking for pos_next: 4 (pos_target: 4)
+070548:  * pos_to_zero() CALL
+070548:  * pos_to_zero()-INFO: start reading pos 3
+070548:  * pos_to_zero()-INFO: using default seven_max_steps 120
+070548:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+070548:  * pos_to_zero()-INFO: using ensure_zero: 250
+070550:  * pos_to_zero()-SUCCESS: found 0 after moving 74 steps, then moved 250 ensure_zero steps
+070550:  * zero_to_edge() CALL
+070602:  * zero_to_edge()-SUCCESS: moved 2809 steps reading zero in the allowed range
+070602: * set_position()-INFO: wait 2500ms
+070604: * set_position()-SUCCESS: pos (4) == pos_target (4)
+070604: * set_position()-INFO-DST: D34: 3133 steps
+070604: SUCCESS going to position 4
+070604: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 4  |  position_old: 4
+070604: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+070745: ---------------------------------------
+070745: [ CMD: GOTO 5 ]
+070745: * set_position()-INFO: trying to set pos_target: 5
+070745: set_direction(): 1-->7 (already in spin direction - return with no delay)
+070745: * set_position()-INFO: start reading pos 4, looking for pos_next: 5 (pos_target: 5)
+070745:  * pos_to_zero() CALL
+070745:  * pos_to_zero()-INFO: start reading pos 4
+070745:  * pos_to_zero()-INFO: using default seven_max_steps 120
+070745:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+070745:  * pos_to_zero()-INFO: using ensure_zero: 250
+070746:  * pos_to_zero()-SUCCESS: found 0 after moving 67 steps, then moved 250 ensure_zero steps
+070746:  * zero_to_edge() CALL
+070758:  * zero_to_edge()-SUCCESS: moved 2790 steps reading zero in the allowed range
+070758: * set_position()-INFO: wait 2500ms
+070800: * set_position()-SUCCESS: pos (5) == pos_target (5)
+070800: * set_position()-INFO-DST: D45: 3107 steps
+070800: SUCCESS going to position 5
+070800: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+070800: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+070940: ---------------------------------------
+070940: [ CMD: GOTO 6 ]
+070940: * set_position()-INFO: trying to set pos_target: 6
+070940: set_direction(): 1-->7 (already in spin direction - return with no delay)
+070940: * set_position()-INFO: start reading pos 5, looking for pos_next: 6 (pos_target: 6)
+070940:  * pos_to_zero() CALL
+070940:  * pos_to_zero()-INFO: start reading pos 5
+070940:  * pos_to_zero()-INFO: using default seven_max_steps 120
+070940:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+070940:  * pos_to_zero()-INFO: using ensure_zero: 250
+070942:  * pos_to_zero()-SUCCESS: found 0 after moving 85 steps, then moved 250 ensure_zero steps
+070942:  * zero_to_edge() CALL
+070954:  * zero_to_edge()-SUCCESS: moved 2884 steps reading zero in the allowed range
+070954: * set_position()-INFO: wait 2500ms
+070956: * set_position()-SUCCESS: pos (6) == pos_target (6)
+070956: * set_position()-INFO-DST: D56: 3219 steps
+070956: SUCCESS going to position 6
+070956: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 6  |  position_old: 6
+070956: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+071136: ---------------------------------------
+071136: [ CMD: GOTO 5 ]
+071136: * set_position()-INFO: trying to set pos_target: 5
+071137: set_direction(): 7-->1 
+071137: * set_position()-INFO: start reading pos 6, looking for pos_next: 5 (pos_target: 5)
+071137:  * pos_to_zero() CALL
+071137:  * pos_to_zero()-INFO: start reading pos 6
+071137:  * pos_to_zero()-INFO: using default seven_max_steps 120
+071137:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+071137:  * pos_to_zero()-INFO: using ensure_zero: 325
+071140:  * pos_to_zero()-SUCCESS: found 0 after moving 325 steps, then moved 325 ensure_zero steps
+071140:  * zero_to_edge() CALL
+071152:  * zero_to_edge()-SUCCESS: moved 2874 steps reading zero in the allowed range
+071152: * set_position()-INFO: wait 2500ms
+071155: * set_position()-SUCCESS: pos (5) == pos_target (5)
+071155: * set_position()-INFO-DST: D65: 3524 steps
+071155: SUCCESS going to position 5
+071155: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+071155: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+071338: ---------------------------------------
+071338: [ CMD: GOTO 4 ]
+071338: * set_position()-INFO: trying to set pos_target: 4
+071338: set_direction(): 7-->1 (already in spin direction - return with no delay)
+071338: * set_position()-INFO: start reading pos 5, looking for pos_next: 4 (pos_target: 4)
+071338:  * pos_to_zero() CALL
+071338:  * pos_to_zero()-INFO: start reading pos 5
+071338:  * pos_to_zero()-INFO: using default seven_max_steps 120
+071338:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+071338:  * pos_to_zero()-INFO: using ensure_zero: 325
+071340:  * pos_to_zero()-SUCCESS: found 0 after moving 123 steps, then moved 325 ensure_zero steps
+071340:  * zero_to_edge() CALL
+071352:  * zero_to_edge()-SUCCESS: moved 2808 steps reading zero in the allowed range
+071352: * set_position()-INFO: wait 2500ms
+071355: * set_position()-INFO: still pos (0) != pos_target (4) after waiting some time. Will try to enter depper in position using search method 1
+071355:  * edge_to_pos() CALL (using search_method: 1)
+071355:  * edge_to_pos()-INFO: reading pos=0 before time!. Will sleep 2.5s and continue moving until pos != 0
+071357:  * edge_to_pos()-ERROR: reading pos 0 after moving 80 steps. Shifting routing failed
+071357: * set_position()-INFO: edge_to_pos() returned ERROR but valid pos or steps (shifting routine failed), so will retry to position again
+071501: ****************  HWP CONTROL SOFTWARE  ****************
+071501: th_position_watcher(): Start
+071501: th_status_broadcast(): Start
+071501: th_emergency_halt(): Start
+071501: Creating and binding CMD socket
+071501: about to run init_routine()
+071501: running init_routine()
+071502: running init_motor_driver()
+071502: motor_driver_set command received: AC 29
+071502: running serial_port()
+071502: returning valid port
+071502: flushing port
+071502: port flushed
+071502: writing command to port: AC 29
+071503: could not write to port
+071503: checking return value: None
+071503:   * motor_driver_set()-ERROR: error while trying to send command
+071503:  *motor_driver_init()-ERROR: failed to set max current limit
+071503: init result: -1
+071503: init_routine() failed, please check log
+071503: Using:
+	 -TIMEDEL: 0.002
+	 -POS_TOLERANCE: 80
+	 -POS_MAX_STEPS: 3300
+	 -POS_MIN_STEPS: 2500
+	 -STEPS_INTO_POS: 1
+	 -SEVEN_MAX_STEPS: 120
+	 -BACKSLASH_STEPS: 150
+	 -ENSURE_ZERO: 100
+	 -RUN_CURRENT: 29
+	 -SB_CURRENT: 10
+071503: [Status Vars]		 halt: True  |  engaged: False  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 4  |  position_old: -2
+071503: [Operating Vars]	 direction: [NOT SET YET]	 timedel [s]: 0.001000 (500.00 pps)
+071503: Listening for commands on port 5454
+080321: ---------------------------------------
+080321: [ CMD: GOTO 5 ]
+080321: Error: system halted. Check errors first
+080321: Error: system is not engaged. Check errors first
+080321: set_position()-ERROR: HWP is NOT engaged and it is not called from engage_routine()
+080321: ERROR going to position 5, will retry to engage.
+080321: ** engage_routine() CALL
+080322: set_direction(): First direction set 7-->1 
+080322: INFO-engage_routine(): start reading pos != 0. Reading pos 4 but could be a false reading, moving upwards and trying to re enter in position
+080324: set_direction(): 1-->7 
+080324:  * pos_to_zero() CALL
+080324:  * pos_to_zero()-INFO: start reading pos 4
+080324:  * pos_to_zero()-INFO: using default seven_max_steps 120
+080324:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+080324:  * pos_to_zero()-INFO: using ensure_zero: 250
+080326:  * pos_to_zero()-SUCCESS: found 0 after moving 152 steps, then moved 250 ensure_zero steps
+080328: set_direction(): 7-->1 
+080328: INFO-engage_routine(): pos_to_zero() returned SUCCESS using 402 steps, continue
+080328:  * zero_to_edge() CALL
+080330:  * zero_to_edge()-WARNIGNG: found pos != 0 after moving 529 steps, but is less than POS_MIN_STEPS (2500)
+080330:  * edge_to_pos() CALL (using search_method: 2)
+080330:  * edge_to_pos()-INFO: will sweep 26 steps and latch bits state
+080330:  * edge_to_pos()-SUCCESS: found pos 4 after moving 26 steps
+080330: INFO-engage_routine(): first valid position read is pos 4
+080330: set_direction(): 7-->1 (already in spin direction - return with no delay)
+080330: set_position()-INFO: CALL trying to engage to pos 3
+080330: set_direction(): 7-->1 (already in spin direction - return with no delay)
+080330: * set_position()-INFO: start reading pos 4, looking for pos_next: 3 (pos_target: 3)
+080330:  * pos_to_zero() CALL
+080330:  * pos_to_zero()-INFO: start reading pos 4
+080330:  * pos_to_zero()-INFO: using default seven_max_steps 120
+080330:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+080330:  * pos_to_zero()-INFO: using ensure_zero: 325
+080332:  * pos_to_zero()-SUCCESS: found 0 after moving 112 steps, then moved 325 ensure_zero steps
+080332:  * zero_to_edge() CALL
+080343:  * zero_to_edge()-SUCCESS: moved 2621 steps reading zero in the allowed range
+080343: * set_position()-INFO: wait 2500ms
+080345: * set_position()-SUCCESS: pos (3) == pos_target (3)
+080345: * set_position()-INFO-DST: D43: 3058 steps
+080345: INFO-engage_routine(): Engaged! (pos 3)
+080345: HWP engaged, will retry to set position again!
+080345: * set_position()-INFO: trying to set pos_target: 5
+080347: set_direction(): 1-->7 
+080347: * set_position()-INFO: start reading pos 3, looking for pos_next: 4 (pos_target: 5)
+080347:  * pos_to_zero() CALL
+080347:  * pos_to_zero()-INFO: start reading pos 3
+080347:  * pos_to_zero()-INFO: using default seven_max_steps 120
+080347:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+080347:  * pos_to_zero()-INFO: using ensure_zero: 250
+080350:  * pos_to_zero()-SUCCESS: found 0 after moving 308 steps, then moved 250 ensure_zero steps
+080350:  * zero_to_edge() CALL
+080402:  * zero_to_edge()-SUCCESS: moved 2871 steps reading zero in the allowed range
+080402:  * edge_to_pos() CALL (using search_method: 2)
+080402:  * edge_to_pos()-INFO: will sweep 40 steps and latch bits state
+080402:  * edge_to_pos()-SUCCESS: found pos 4 after moving 40 steps
+080402: * set_position()-INFO: current pos (4) matched pos_next (4)
+080402: * set_position()-INFO-DST: d34: 3469 steps (not so trustable due to search_method)
+080402: * set_position()-INFO: new pos_next (5) and continue - pos_target: 5)
+080402:  * pos_to_zero() CALL
+080402:  * pos_to_zero()-INFO: start reading pos 4
+080402:  * pos_to_zero()-INFO: using default seven_max_steps 120
+080402:   * ensure_zero_helper()-INFO: using default ensure_zero: 100 (ENSURE_ZERO)
+080402:  * pos_to_zero()-INFO: using ensure_zero: 100
+080403:  * pos_to_zero()-SUCCESS: found 0 after moving 116 steps, then moved 100 ensure_zero steps
+080403:  * zero_to_edge() CALL
+080415:  * zero_to_edge()-SUCCESS: moved 2851 steps reading zero in the allowed range
+080415: * set_position()-INFO: wait 2500ms
+080417: * set_position()-SUCCESS: pos (5) == pos_target (5)
+080417: * set_position()-INFO-DST: d35: 6536 steps
+080417: SUCCESS going to position 5
+080417: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+080417: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+080556: ---------------------------------------
+080556: [ CMD: GOTO 6 ]
+080556: * set_position()-INFO: trying to set pos_target: 6
+080556: set_direction(): 1-->7 (already in spin direction - return with no delay)
+080556: * set_position()-INFO: start reading pos 5, looking for pos_next: 6 (pos_target: 6)
+080556:  * pos_to_zero() CALL
+080556:  * pos_to_zero()-INFO: start reading pos 5
+080556:  * pos_to_zero()-INFO: using default seven_max_steps 120
+080556:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+080556:  * pos_to_zero()-INFO: using ensure_zero: 250
+080557:  * pos_to_zero()-SUCCESS: found 0 after moving 56 steps, then moved 250 ensure_zero steps
+080557:  * zero_to_edge() CALL
+080610:  * zero_to_edge()-SUCCESS: moved 2921 steps reading zero in the allowed range
+080610: * set_position()-INFO: wait 2500ms
+080612: * set_position()-INFO: still pos (4) != pos_target (6) after waiting some time. Will try to enter depper in position using search method 1
+080612:  * edge_to_pos() CALL (using search_method: 1)
+080612:  * edge_to_pos()-INFO: using STEPS_INTO_POS: 1 steps (8 percent of default POS_STEPS[5])
+080612:  * edge_to_pos()-SUCCESS: pos 6 was found 1 times (STEPS_INTO_POS) after moving 5 steps
+080612: * set_position()-INFO: wait 2500ms more
+080615: * set_position()-SUCCESS: pos (6) == pos_target (6)
+080615: * set_position()-INFO-DST: D56: 3231 steps
+080615: SUCCESS going to position 6
+080615: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 6  |  position_old: 6
+080615: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+080759: ---------------------------------------
+080759: [ CMD: GOTO 5 ]
+080759: * set_position()-INFO: trying to set pos_target: 5
+080801: set_direction(): 7-->1 
+080801: * set_position()-INFO: start reading pos 6, looking for pos_next: 5 (pos_target: 5)
+080801:  * pos_to_zero() CALL
+080801:  * pos_to_zero()-INFO: start reading pos 6
+080801:  * pos_to_zero()-INFO: using default seven_max_steps 120
+080801:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+080801:  * pos_to_zero()-INFO: using ensure_zero: 325
+080803:  * pos_to_zero()-SUCCESS: found 0 after moving 291 steps, then moved 325 ensure_zero steps
+080803:  * zero_to_edge() CALL
+080815:  * zero_to_edge()-SUCCESS: moved 2857 steps reading zero in the allowed range
+080815: * set_position()-INFO: wait 2500ms
+080818: * set_position()-INFO: still pos (4) != pos_target (5) after waiting some time. Will try to enter depper in position using search method 1
+080818:  * edge_to_pos() CALL (using search_method: 1)
+080818:  * edge_to_pos()-INFO: using STEPS_INTO_POS: 3 steps (15 percent of default POS_STEPS[4])
+080818:  * edge_to_pos()-SUCCESS: pos 5 was found 3 times (STEPS_INTO_POS) after moving 7 steps
+080818: * set_position()-INFO: wait 2500ms more
+080820: * set_position()-SUCCESS: pos (5) == pos_target (5)
+080820: * set_position()-INFO-DST: D65: 3479 steps
+080820: SUCCESS going to position 5
+080820: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+080820: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+081004: ---------------------------------------
+081004: [ CMD: GOTO 4 ]
+081004: * set_position()-INFO: trying to set pos_target: 4
+081004: set_direction(): 7-->1 (already in spin direction - return with no delay)
+081004: * set_position()-INFO: start reading pos 5, looking for pos_next: 4 (pos_target: 4)
+081004:  * pos_to_zero() CALL
+081004:  * pos_to_zero()-INFO: start reading pos 5
+081004:  * pos_to_zero()-INFO: using default seven_max_steps 120
+081004:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+081004:  * pos_to_zero()-INFO: using ensure_zero: 325
+081006:  * pos_to_zero()-SUCCESS: found 0 after moving 136 steps, then moved 325 ensure_zero steps
+081006:  * zero_to_edge() CALL
+081017:  * zero_to_edge()-SUCCESS: moved 2762 steps reading zero in the allowed range
+081017: * set_position()-INFO: wait 2500ms
+081020: * set_position()-SUCCESS: pos (4) == pos_target (4)
+081020: * set_position()-INFO-DST: D54: 3223 steps
+081020: SUCCESS going to position 4
+081020: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 4  |  position_old: 4
+081020: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+081159: ---------------------------------------
+081159: [ CMD: GOTO 3 ]
+081159: * set_position()-INFO: trying to set pos_target: 3
+081159: set_direction(): 7-->1 (already in spin direction - return with no delay)
+081159: * set_position()-INFO: start reading pos 4, looking for pos_next: 3 (pos_target: 3)
+081159:  * pos_to_zero() CALL
+081159:  * pos_to_zero()-INFO: start reading pos 4
+081159:  * pos_to_zero()-INFO: using default seven_max_steps 120
+081159:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+081159:  * pos_to_zero()-INFO: using ensure_zero: 325
+081201:  * pos_to_zero()-SUCCESS: found 0 after moving 111 steps, then moved 325 ensure_zero steps
+081201:  * zero_to_edge() CALL
+081212:  * zero_to_edge()-SUCCESS: moved 2660 steps reading zero in the allowed range
+081212: * set_position()-INFO: wait 2500ms
+081215: * set_position()-SUCCESS: pos (3) == pos_target (3)
+081215: * set_position()-INFO-DST: D43: 3096 steps
+081215: SUCCESS going to position 3
+081215: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 3  |  position_old: 3
+081215: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+081400: ---------------------------------------
+081400: [ CMD: GOTO 2 ]
+081400: * set_position()-INFO: trying to set pos_target: 2
+081400: set_direction(): 7-->1 (already in spin direction - return with no delay)
+081400: * set_position()-INFO: start reading pos 3, looking for pos_next: 2 (pos_target: 2)
+081400:  * pos_to_zero() CALL
+081400:  * pos_to_zero()-INFO: start reading pos 3
+081400:  * pos_to_zero()-INFO: using default seven_max_steps 120
+081400:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+081400:  * pos_to_zero()-INFO: using ensure_zero: 325
+081402:  * pos_to_zero()-SUCCESS: found 0 after moving 74 steps, then moved 325 ensure_zero steps
+081402:  * zero_to_edge() CALL
+081414:  * zero_to_edge()-SUCCESS: moved 2825 steps reading zero in the allowed range
+081414: * set_position()-INFO: wait 2500ms
+081416: * set_position()-SUCCESS: pos (2) == pos_target (2)
+081416: * set_position()-INFO-DST: D32: 3224 steps
+081416: SUCCESS going to position 2
+081416: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 2  |  position_old: 2
+081416: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+081556: ---------------------------------------
+081556: [ CMD: GOTO 3 ]
+081556: * set_position()-INFO: trying to set pos_target: 3
+081558: set_direction(): 1-->7 
+081558: * set_position()-INFO: start reading pos 2, looking for pos_next: 3 (pos_target: 3)
+081558:  * pos_to_zero() CALL
+081558:  * pos_to_zero()-INFO: start reading pos 2
+081558:  * pos_to_zero()-INFO: using default seven_max_steps 120
+081558:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+081558:  * pos_to_zero()-INFO: using ensure_zero: 250
+081600:  * pos_to_zero()-SUCCESS: found 0 after moving 404 steps, then moved 250 ensure_zero steps
+081600:  * zero_to_edge() CALL
+081613:  * zero_to_edge()-SUCCESS: moved 2915 steps reading zero in the allowed range
+081613: * set_position()-INFO: wait 2500ms
+081615: * set_position()-INFO: still pos (1) != pos_target (3) after waiting some time. Will try to enter depper in position using search method 1
+081615:  * edge_to_pos() CALL (using search_method: 1)
+081615:  * edge_to_pos()-INFO: using STEPS_INTO_POS: 2 steps (8 percent of default POS_STEPS[2])
+081615:  * edge_to_pos()-SUCCESS: pos 3 was found 2 times (STEPS_INTO_POS) after moving 33 steps
+081615: * set_position()-INFO: wait 2500ms more
+081618: * set_position()-SUCCESS: pos (3) == pos_target (3)
+081618: * set_position()-INFO-DST: D23: 3601 steps
+081618: SUCCESS going to position 3
+081618: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 3  |  position_old: 3
+081618: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+081758: ---------------------------------------
+081758: [ CMD: GOTO 4 ]
+081758: * set_position()-INFO: trying to set pos_target: 4
+081758: set_direction(): 1-->7 (already in spin direction - return with no delay)
+081758: * set_position()-INFO: start reading pos 3, looking for pos_next: 4 (pos_target: 4)
+081758:  * pos_to_zero() CALL
+081758:  * pos_to_zero()-INFO: start reading pos 3
+081758:  * pos_to_zero()-INFO: using default seven_max_steps 120
+081758:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+081758:  * pos_to_zero()-INFO: using ensure_zero: 250
+081800:  * pos_to_zero()-SUCCESS: found 0 after moving 135 steps, then moved 250 ensure_zero steps
+081800:  * zero_to_edge() CALL
+081812:  * zero_to_edge()-SUCCESS: moved 2808 steps reading zero in the allowed range
+081812: * set_position()-INFO: wait 2500ms
+081814: * set_position()-SUCCESS: pos (4) == pos_target (4)
+081814: * set_position()-INFO-DST: D34: 3193 steps
+081814: SUCCESS going to position 4
+081814: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 4  |  position_old: 4
+081814: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+081954: ---------------------------------------
+081954: [ CMD: GOTO 5 ]
+081954: * set_position()-INFO: trying to set pos_target: 5
+081954: set_direction(): 1-->7 (already in spin direction - return with no delay)
+081954: * set_position()-INFO: start reading pos 4, looking for pos_next: 5 (pos_target: 5)
+081954:  * pos_to_zero() CALL
+081954:  * pos_to_zero()-INFO: start reading pos 4
+081954:  * pos_to_zero()-INFO: using default seven_max_steps 120
+081954:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+081954:  * pos_to_zero()-INFO: using ensure_zero: 250
+081955:  * pos_to_zero()-SUCCESS: found 0 after moving 77 steps, then moved 250 ensure_zero steps
+081955:  * zero_to_edge() CALL
+082007:  * zero_to_edge()-SUCCESS: moved 2693 steps reading zero in the allowed range
+082007: * set_position()-INFO: wait 2500ms
+082009: * set_position()-SUCCESS: pos (5) == pos_target (5)
+082009: * set_position()-INFO-DST: D45: 3020 steps
+082009: SUCCESS going to position 5
+082009: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+082009: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+082149: ---------------------------------------
+082149: [ CMD: GOTO 6 ]
+082149: * set_position()-INFO: trying to set pos_target: 6
+082149: set_direction(): 1-->7 (already in spin direction - return with no delay)
+082149: * set_position()-INFO: start reading pos 5, looking for pos_next: 6 (pos_target: 6)
+082149:  * pos_to_zero() CALL
+082149:  * pos_to_zero()-INFO: start reading pos 5
+082149:  * pos_to_zero()-INFO: using default seven_max_steps 120
+082149:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+082149:  * pos_to_zero()-INFO: using ensure_zero: 250
+082151:  * pos_to_zero()-SUCCESS: found 0 after moving 68 steps, then moved 250 ensure_zero steps
+082151:  * zero_to_edge() CALL
+082203:  * zero_to_edge()-SUCCESS: moved 2879 steps reading zero in the allowed range
+082203: * set_position()-INFO: wait 2500ms
+082205: * set_position()-SUCCESS: pos (6) == pos_target (6)
+082205: * set_position()-INFO-DST: D56: 3197 steps
+082205: SUCCESS going to position 6
+082205: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 6  |  position_old: 6
+082205: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+082346: ---------------------------------------
+082346: [ CMD: GOTO 5 ]
+082346: * set_position()-INFO: trying to set pos_target: 5
+082347: set_direction(): 7-->1 
+082347: * set_position()-INFO: start reading pos 6, looking for pos_next: 5 (pos_target: 5)
+082347:  * pos_to_zero() CALL
+082347:  * pos_to_zero()-INFO: start reading pos 6
+082347:  * pos_to_zero()-INFO: using default seven_max_steps 120
+082347:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+082347:  * pos_to_zero()-INFO: using ensure_zero: 325
+082350:  * pos_to_zero()-SUCCESS: found 0 after moving 276 steps, then moved 325 ensure_zero steps
+082350:  * zero_to_edge() CALL
+082402:  * zero_to_edge()-SUCCESS: moved 2862 steps reading zero in the allowed range
+082402: * set_position()-INFO: wait 2500ms
+082404: * set_position()-SUCCESS: pos (5) == pos_target (5)
+082404: * set_position()-INFO-DST: D65: 3463 steps
+082404: SUCCESS going to position 5
+082404: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+082404: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+082543: ---------------------------------------
+082543: [ CMD: GOTO 4 ]
+082543: * set_position()-INFO: trying to set pos_target: 4
+082543: set_direction(): 7-->1 (already in spin direction - return with no delay)
+082543: * set_position()-INFO: start reading pos 5, looking for pos_next: 4 (pos_target: 4)
+082543:  * pos_to_zero() CALL
+082543:  * pos_to_zero()-INFO: start reading pos 5
+082543:  * pos_to_zero()-INFO: using default seven_max_steps 120
+082543:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+082543:  * pos_to_zero()-INFO: using ensure_zero: 325
+082545:  * pos_to_zero()-SUCCESS: found 0 after moving 111 steps, then moved 325 ensure_zero steps
+082545:  * zero_to_edge() CALL
+082557:  * zero_to_edge()-SUCCESS: moved 2785 steps reading zero in the allowed range
+082557: * set_position()-INFO: wait 2500ms
+082559: * set_position()-INFO: still pos (0) != pos_target (4) after waiting some time. Will try to enter depper in position using search method 1
+082559:  * edge_to_pos() CALL (using search_method: 1)
+082559:  * edge_to_pos()-INFO: reading pos=0 before time!. Will sleep 2.5s and continue moving until pos != 0
+082602:  * edge_to_pos()-ERROR: reading pos 0 after moving 80 steps. Shifting routing failed
+082602: * set_position()-INFO: edge_to_pos() returned ERROR but valid pos or steps (shifting routine failed), so will retry to position again
+083002: ****************  HWP CONTROL SOFTWARE  ****************
+083002: th_position_watcher(): Start
+083002: th_status_broadcast(): Start
+083002: Creating and binding CMD socket
+083002: th_emergency_halt(): Start
+083002: about to run init_routine()
+083002: running init_routine()
+083002: running init_motor_driver()
+083002: motor_driver_set command received: AC 29
+083002: running serial_port()
+083002: returning valid port
+083002: flushing port
+083002: port flushed
+083002: writing command to port: AC 29
+083003: could not write to port
+083003: checking return value: None
+083003:   * motor_driver_set()-ERROR: error while trying to send command
+083003:  *motor_driver_init()-ERROR: failed to set max current limit
+083003: init result: -1
+083003: init_routine() failed, please check log
+083003: Using:
+	 -TIMEDEL: 0.002
+	 -POS_TOLERANCE: 80
+	 -POS_MAX_STEPS: 3300
+	 -POS_MIN_STEPS: 2500
+	 -STEPS_INTO_POS: 1
+	 -SEVEN_MAX_STEPS: 120
+	 -BACKSLASH_STEPS: 150
+	 -ENSURE_ZERO: 100
+	 -RUN_CURRENT: 29
+	 -SB_CURRENT: 10
+083003: [Status Vars]		 halt: True  |  engaged: False  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 0  |  position_old: -2
+083003: [Operating Vars]	 direction: [NOT SET YET]	 timedel [s]: 0.001000 (500.00 pps)
+083003: Listening for commands on port 5454
+085920: ---------------------------------------
+085920: [ CMD: GOTO 2 ]
+085920: Error: system halted. Check errors first
+085920: Error: system is not engaged. Check errors first
+085920: set_position()-ERROR: HWP is NOT engaged and it is not called from engage_routine()
+085920: ERROR going to position 2, will retry to engage.
+085920: ** engage_routine() CALL
+085922: set_direction(): First direction set 7-->1 
+085922: INFO-engage_routine(): start reading pos 0
+085922:  * zero_to_edge() CALL
+085934:  * zero_to_edge()-SUCCESS: moved 3008 steps reading zero in the allowed range
+085934:  * edge_to_pos() CALL (using search_method: 2)
+085934:  * edge_to_pos()-INFO: will sweep 26 steps and latch bits state
+085934:  * edge_to_pos()-SUCCESS: found pos 3 after moving 26 steps
+085934: INFO-engage_routine(): first valid position read is pos 3
+085934: set_direction(): 7-->1 (already in spin direction - return with no delay)
+085934: set_position()-INFO: CALL trying to engage to pos 2
+085934: set_direction(): 7-->1 (already in spin direction - return with no delay)
+085934: * set_position()-INFO: start reading pos 3, looking for pos_next: 2 (pos_target: 2)
+085934:  * pos_to_zero() CALL
+085934:  * pos_to_zero()-INFO: start reading pos 3
+085934:  * pos_to_zero()-INFO: using default seven_max_steps 120
+085934:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+085934:  * pos_to_zero()-INFO: using ensure_zero: 325
+085936:  * pos_to_zero()-SUCCESS: found 0 after moving 36 steps, then moved 325 ensure_zero steps
+085936:  * zero_to_edge() CALL
+085948:  * zero_to_edge()-SUCCESS: moved 2857 steps reading zero in the allowed range
+085948: * set_position()-INFO: wait 2500ms
+085950: * set_position()-SUCCESS: pos (2) == pos_target (2)
+085950: * set_position()-INFO-DST: D32: 3218 steps
+085950: INFO-engage_routine(): Engaged! (pos 2)
+085950: HWP engaged, will retry to set position again!
+085950: * set_position()-INFO: trying to set pos_target: 2
+085950: * set_position()-Msg: already pos (2) == pos_target (2)
+085950: SUCCESS going to position 2
+085950: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 2  |  position_old: 2
+085950: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+090135: ---------------------------------------
+090135: [ CMD: GOTO 3 ]
+090135: * set_position()-INFO: trying to set pos_target: 3
+090137: set_direction(): 1-->7 
+090137: * set_position()-INFO: start reading pos 2, looking for pos_next: 3 (pos_target: 3)
+090137:  * pos_to_zero() CALL
+090137:  * pos_to_zero()-INFO: start reading pos 2
+090137:  * pos_to_zero()-INFO: using default seven_max_steps 120
+090137:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+090137:  * pos_to_zero()-INFO: using ensure_zero: 250
+090140:  * pos_to_zero()-SUCCESS: found 0 after moving 418 steps, then moved 250 ensure_zero steps
+090140:  * zero_to_edge() CALL
+090152:  * zero_to_edge()-SUCCESS: moved 2944 steps reading zero in the allowed range
+090152: * set_position()-INFO: wait 2500ms
+090155: * set_position()-SUCCESS: pos (3) == pos_target (3)
+090155: * set_position()-INFO-DST: D23: 3612 steps
+090155: SUCCESS going to position 3
+090155: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 3  |  position_old: 3
+090155: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+090336: ---------------------------------------
+090336: [ CMD: GOTO 4 ]
+090336: * set_position()-INFO: trying to set pos_target: 4
+090336: set_direction(): 1-->7 (already in spin direction - return with no delay)
+090336: * set_position()-INFO: start reading pos 3, looking for pos_next: 4 (pos_target: 4)
+090336:  * pos_to_zero() CALL
+090336:  * pos_to_zero()-INFO: start reading pos 3
+090336:  * pos_to_zero()-INFO: using default seven_max_steps 120
+090336:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+090336:  * pos_to_zero()-INFO: using ensure_zero: 250
+090337:  * pos_to_zero()-SUCCESS: found 0 after moving 128 steps, then moved 250 ensure_zero steps
+090337:  * zero_to_edge() CALL
+090349:  * zero_to_edge()-SUCCESS: moved 2809 steps reading zero in the allowed range
+090349: * set_position()-INFO: wait 2500ms
+090351: * set_position()-SUCCESS: pos (4) == pos_target (4)
+090351: * set_position()-INFO-DST: D34: 3187 steps
+090351: SUCCESS going to position 4
+090351: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 4  |  position_old: 4
+090351: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+090531: ---------------------------------------
+090531: [ CMD: GOTO 5 ]
+090531: * set_position()-INFO: trying to set pos_target: 5
+090531: set_direction(): 1-->7 (already in spin direction - return with no delay)
+090531: * set_position()-INFO: start reading pos 4, looking for pos_next: 5 (pos_target: 5)
+090531:  * pos_to_zero() CALL
+090531:  * pos_to_zero()-INFO: start reading pos 4
+090531:  * pos_to_zero()-INFO: using default seven_max_steps 120
+090531:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+090531:  * pos_to_zero()-INFO: using ensure_zero: 250
+090532:  * pos_to_zero()-SUCCESS: found 0 after moving 81 steps, then moved 250 ensure_zero steps
+090532:  * zero_to_edge() CALL
+090544:  * zero_to_edge()-SUCCESS: moved 2666 steps reading zero in the allowed range
+090544: * set_position()-INFO: wait 2500ms
+090546: * set_position()-INFO: still pos (4) != pos_target (5) after waiting some time. Will try to enter depper in position using search method 1
+090546:  * edge_to_pos() CALL (using search_method: 1)
+090546:  * edge_to_pos()-INFO: using STEPS_INTO_POS: 1 steps (8 percent of default POS_STEPS[4])
+090546:  * edge_to_pos()-SUCCESS: pos 5 was found 1 times (STEPS_INTO_POS) after moving 37 steps
+090546: * set_position()-INFO: wait 2500ms more
+090549: * set_position()-SUCCESS: pos (5) == pos_target (5)
+090549: * set_position()-INFO-DST: D45: 3033 steps
+090549: SUCCESS going to position 5
+090549: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+090549: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+090729: ---------------------------------------
+090729: [ CMD: GOTO 6 ]
+090729: * set_position()-INFO: trying to set pos_target: 6
+090729: set_direction(): 1-->7 (already in spin direction - return with no delay)
+090729: * set_position()-INFO: start reading pos 5, looking for pos_next: 6 (pos_target: 6)
+090729:  * pos_to_zero() CALL
+090729:  * pos_to_zero()-INFO: start reading pos 5
+090729:  * pos_to_zero()-INFO: using default seven_max_steps 120
+090729:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+090729:  * pos_to_zero()-INFO: using ensure_zero: 250
+090731:  * pos_to_zero()-SUCCESS: found 0 after moving 109 steps, then moved 250 ensure_zero steps
+090731:  * zero_to_edge() CALL
+090743:  * zero_to_edge()-SUCCESS: moved 2820 steps reading zero in the allowed range
+090743: * set_position()-INFO: wait 2500ms
+090745: * set_position()-SUCCESS: pos (6) == pos_target (6)
+090745: * set_position()-INFO-DST: D56: 3179 steps
+090745: SUCCESS going to position 6
+090745: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 6  |  position_old: 6
+090745: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+090926: ---------------------------------------
+090926: [ CMD: GOTO 5 ]
+090926: * set_position()-INFO: trying to set pos_target: 5
+090927: set_direction(): 7-->1 
+090927: * set_position()-INFO: start reading pos 6, looking for pos_next: 5 (pos_target: 5)
+090927:  * pos_to_zero() CALL
+090927:  * pos_to_zero()-INFO: start reading pos 6
+090927:  * pos_to_zero()-INFO: using default seven_max_steps 120
+090927:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+090927:  * pos_to_zero()-INFO: using ensure_zero: 325
+090930:  * pos_to_zero()-SUCCESS: found 0 after moving 276 steps, then moved 325 ensure_zero steps
+090930:  * zero_to_edge() CALL
+090942:  * zero_to_edge()-SUCCESS: moved 2873 steps reading zero in the allowed range
+090942: * set_position()-INFO: wait 2500ms
+090944: * set_position()-SUCCESS: pos (5) == pos_target (5)
+090944: * set_position()-INFO-DST: D65: 3474 steps
+090944: SUCCESS going to position 5
+090945: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+090945: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+091123: ---------------------------------------
+091123: [ CMD: GOTO 4 ]
+091123: * set_position()-INFO: trying to set pos_target: 4
+091123: set_direction(): 7-->1 (already in spin direction - return with no delay)
+091123: * set_position()-INFO: start reading pos 5, looking for pos_next: 4 (pos_target: 4)
+091123:  * pos_to_zero() CALL
+091123:  * pos_to_zero()-INFO: start reading pos 5
+091123:  * pos_to_zero()-INFO: using default seven_max_steps 120
+091123:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+091123:  * pos_to_zero()-INFO: using ensure_zero: 325
+091125:  * pos_to_zero()-SUCCESS: found 0 after moving 121 steps, then moved 325 ensure_zero steps
+091125:  * zero_to_edge() CALL
+091137:  * zero_to_edge()-SUCCESS: moved 2773 steps reading zero in the allowed range
+091137: * set_position()-INFO: wait 2500ms
+091139: * set_position()-SUCCESS: pos (4) == pos_target (4)
+091139: * set_position()-INFO-DST: D54: 3219 steps
+091139: SUCCESS going to position 4
+091139: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 4  |  position_old: 4
+091139: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+091319: ---------------------------------------
+091319: [ CMD: GOTO 3 ]
+091319: * set_position()-INFO: trying to set pos_target: 3
+091319: set_direction(): 7-->1 (already in spin direction - return with no delay)
+091319: * set_position()-INFO: start reading pos 4, looking for pos_next: 3 (pos_target: 3)
+091319:  * pos_to_zero() CALL
+091319:  * pos_to_zero()-INFO: start reading pos 4
+091319:  * pos_to_zero()-INFO: using default seven_max_steps 120
+091319:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+091319:  * pos_to_zero()-INFO: using ensure_zero: 325
+091321:  * pos_to_zero()-SUCCESS: found 0 after moving 71 steps, then moved 325 ensure_zero steps
+091321:  * zero_to_edge() CALL
+091332:  * zero_to_edge()-SUCCESS: moved 2671 steps reading zero in the allowed range
+091332: * set_position()-INFO: wait 2500ms
+091335: * set_position()-SUCCESS: pos (3) == pos_target (3)
+091335: * set_position()-INFO-DST: D43: 3067 steps
+091335: SUCCESS going to position 3
+091335: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 3  |  position_old: 3
+091335: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+091522: ---------------------------------------
+091522: [ CMD: GOTO 2 ]
+091522: * set_position()-INFO: trying to set pos_target: 2
+091522: set_direction(): 7-->1 (already in spin direction - return with no delay)
+091522: * set_position()-INFO: start reading pos 3, looking for pos_next: 2 (pos_target: 2)
+091522:  * pos_to_zero() CALL
+091522:  * pos_to_zero()-INFO: start reading pos 3
+091522:  * pos_to_zero()-INFO: using default seven_max_steps 120
+091522:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+091522:  * pos_to_zero()-INFO: using ensure_zero: 325
+091524:  * pos_to_zero()-SUCCESS: found 0 after moving 116 steps, then moved 325 ensure_zero steps
+091524:  * zero_to_edge() CALL
+091535:  * zero_to_edge()-SUCCESS: moved 2715 steps reading zero in the allowed range
+091535: * set_position()-INFO: wait 2500ms
+091538: * set_position()-SUCCESS: pos (2) == pos_target (2)
+091538: * set_position()-INFO-DST: D32: 3156 steps
+091538: SUCCESS going to position 2
+091538: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 2  |  position_old: 2
+091538: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+091728: ---------------------------------------
+091728: [ CMD: GOTO 3 ]
+091728: * set_position()-INFO: trying to set pos_target: 3
+091730: set_direction(): 1-->7 
+091730: * set_position()-INFO: start reading pos 2, looking for pos_next: 3 (pos_target: 3)
+091730:  * pos_to_zero() CALL
+091730:  * pos_to_zero()-INFO: start reading pos 2
+091730:  * pos_to_zero()-INFO: using default seven_max_steps 120
+091730:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+091730:  * pos_to_zero()-INFO: using ensure_zero: 250
+091733:  * pos_to_zero()-SUCCESS: found 0 after moving 309 steps, then moved 250 ensure_zero steps
+091733:  * zero_to_edge() CALL
+091745:  * zero_to_edge()-SUCCESS: moved 2947 steps reading zero in the allowed range
+091745: * set_position()-INFO: wait 2500ms
+091748: * set_position()-SUCCESS: pos (3) == pos_target (3)
+091748: * set_position()-INFO-DST: D23: 3506 steps
+091748: SUCCESS going to position 3
+091748: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 3  |  position_old: 3
+091748: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+091928: ---------------------------------------
+091928: [ CMD: GOTO 4 ]
+091928: * set_position()-INFO: trying to set pos_target: 4
+091928: set_direction(): 1-->7 (already in spin direction - return with no delay)
+091928: * set_position()-INFO: start reading pos 3, looking for pos_next: 4 (pos_target: 4)
+091928:  * pos_to_zero() CALL
+091928:  * pos_to_zero()-INFO: start reading pos 3
+091928:  * pos_to_zero()-INFO: using default seven_max_steps 120
+091928:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+091928:  * pos_to_zero()-INFO: using ensure_zero: 250
+091929:  * pos_to_zero()-SUCCESS: found 0 after moving 79 steps, then moved 250 ensure_zero steps
+091929:  * zero_to_edge() CALL
+091941:  * zero_to_edge()-SUCCESS: moved 2776 steps reading zero in the allowed range
+091941: * set_position()-INFO: wait 2500ms
+091943: * set_position()-SUCCESS: pos (4) == pos_target (4)
+091943: * set_position()-INFO-DST: D34: 3105 steps
+091943: SUCCESS going to position 4
+091943: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 4  |  position_old: 4
+091943: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+092123: ---------------------------------------
+092123: [ CMD: GOTO 5 ]
+092123: * set_position()-INFO: trying to set pos_target: 5
+092123: set_direction(): 1-->7 (already in spin direction - return with no delay)
+092123: * set_position()-INFO: start reading pos 4, looking for pos_next: 5 (pos_target: 5)
+092123:  * pos_to_zero() CALL
+092123:  * pos_to_zero()-INFO: start reading pos 4
+092123:  * pos_to_zero()-INFO: using default seven_max_steps 120
+092123:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+092123:  * pos_to_zero()-INFO: using ensure_zero: 250
+092125:  * pos_to_zero()-SUCCESS: found 0 after moving 106 steps, then moved 250 ensure_zero steps
+092125:  * zero_to_edge() CALL
+092136:  * zero_to_edge()-SUCCESS: moved 2768 steps reading zero in the allowed range
+092136: * set_position()-INFO: wait 2500ms
+092139: * set_position()-SUCCESS: pos (5) == pos_target (5)
+092139: * set_position()-INFO-DST: D45: 3124 steps
+092139: SUCCESS going to position 5
+092139: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+092139: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+092317: ---------------------------------------
+092317: [ CMD: GOTO 6 ]
+092317: * set_position()-INFO: trying to set pos_target: 6
+092317: set_direction(): 1-->7 (already in spin direction - return with no delay)
+092317: * set_position()-INFO: start reading pos 5, looking for pos_next: 6 (pos_target: 6)
+092317:  * pos_to_zero() CALL
+092317:  * pos_to_zero()-INFO: start reading pos 5
+092317:  * pos_to_zero()-INFO: using default seven_max_steps 120
+092317:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+092317:  * pos_to_zero()-INFO: using ensure_zero: 250
+092319:  * pos_to_zero()-SUCCESS: found 0 after moving 83 steps, then moved 250 ensure_zero steps
+092319:  * zero_to_edge() CALL
+092331:  * zero_to_edge()-SUCCESS: moved 2851 steps reading zero in the allowed range
+092331: * set_position()-INFO: wait 2500ms
+092333: * set_position()-SUCCESS: pos (6) == pos_target (6)
+092333: * set_position()-INFO-DST: D56: 3184 steps
+092333: SUCCESS going to position 6
+092333: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 6  |  position_old: 6
+092333: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+092511: ---------------------------------------
+092511: [ CMD: GOTO 5 ]
+092511: * set_position()-INFO: trying to set pos_target: 5
+092513: set_direction(): 7-->1 
+092513: * set_position()-INFO: start reading pos 6, looking for pos_next: 5 (pos_target: 5)
+092513:  * pos_to_zero() CALL
+092513:  * pos_to_zero()-INFO: start reading pos 6
+092513:  * pos_to_zero()-INFO: using default seven_max_steps 120
+092513:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+092513:  * pos_to_zero()-INFO: using ensure_zero: 325
+092516:  * pos_to_zero()-SUCCESS: found 0 after moving 333 steps, then moved 325 ensure_zero steps
+092516:  * zero_to_edge() CALL
+092528:  * zero_to_edge()-SUCCESS: moved 2874 steps reading zero in the allowed range
+092528: * set_position()-INFO: wait 2500ms
+092530: * set_position()-SUCCESS: pos (5) == pos_target (5)
+092530: * set_position()-INFO-DST: D65: 3532 steps
+092530: SUCCESS going to position 5
+092530: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+092530: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+092710: ---------------------------------------
+092710: [ CMD: GOTO 4 ]
+092710: * set_position()-INFO: trying to set pos_target: 4
+092710: set_direction(): 7-->1 (already in spin direction - return with no delay)
+092710: * set_position()-INFO: start reading pos 5, looking for pos_next: 4 (pos_target: 4)
+092710:  * pos_to_zero() CALL
+092710:  * pos_to_zero()-INFO: start reading pos 5
+092710:  * pos_to_zero()-INFO: using default seven_max_steps 120
+092710:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+092710:  * pos_to_zero()-INFO: using ensure_zero: 325
+092712:  * pos_to_zero()-SUCCESS: found 0 after moving 71 steps, then moved 325 ensure_zero steps
+092712:  * zero_to_edge() CALL
+092723:  * zero_to_edge()-SUCCESS: moved 2812 steps reading zero in the allowed range
+092723: * set_position()-INFO: wait 2500ms
+092726: * set_position()-SUCCESS: pos (4) == pos_target (4)
+092726: * set_position()-INFO-DST: D54: 3208 steps
+092726: SUCCESS going to position 4
+092726: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 4  |  position_old: 4
+092726: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+092905: ---------------------------------------
+092905: [ CMD: GOTO 3 ]
+092905: * set_position()-INFO: trying to set pos_target: 3
+092905: set_direction(): 7-->1 (already in spin direction - return with no delay)
+092905: * set_position()-INFO: start reading pos 4, looking for pos_next: 3 (pos_target: 3)
+092905:  * pos_to_zero() CALL
+092905:  * pos_to_zero()-INFO: start reading pos 4
+092905:  * pos_to_zero()-INFO: using default seven_max_steps 120
+092905:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+092905:  * pos_to_zero()-INFO: using ensure_zero: 325
+092907:  * pos_to_zero()-SUCCESS: found 0 after moving 15 steps, then moved 325 ensure_zero steps
+092907:  * zero_to_edge() CALL
+092918:  * zero_to_edge()-SUCCESS: moved 2715 steps reading zero in the allowed range
+092918: * set_position()-INFO: wait 2500ms
+092921: * set_position()-SUCCESS: pos (3) == pos_target (3)
+092921: * set_position()-INFO-DST: D43: 3055 steps
+092921: SUCCESS going to position 3
+092921: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 3  |  position_old: 3
+092921: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+093101: ---------------------------------------
+093101: [ CMD: GOTO 2 ]
+093101: * set_position()-INFO: trying to set pos_target: 2
+093101: set_direction(): 7-->1 (already in spin direction - return with no delay)
+093101: * set_position()-INFO: start reading pos 3, looking for pos_next: 2 (pos_target: 2)
+093101:  * pos_to_zero() CALL
+093101:  * pos_to_zero()-INFO: start reading pos 3
+093101:  * pos_to_zero()-INFO: using default seven_max_steps 120
+093101:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+093101:  * pos_to_zero()-INFO: using ensure_zero: 325
+093103:  * pos_to_zero()-SUCCESS: found 0 after moving 104 steps, then moved 325 ensure_zero steps
+093103:  * zero_to_edge() CALL
+093114:  * zero_to_edge()-SUCCESS: moved 2728 steps reading zero in the allowed range
+093114: * set_position()-INFO: wait 2500ms
+093117: * set_position()-SUCCESS: pos (2) == pos_target (2)
+093117: * set_position()-INFO-DST: D32: 3157 steps
+093117: SUCCESS going to position 2
+093117: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 2  |  position_old: 2
+093117: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+093256: ---------------------------------------
+093256: [ CMD: GOTO 3 ]
+093256: * set_position()-INFO: trying to set pos_target: 3
+093258: set_direction(): 1-->7 
+093258: * set_position()-INFO: start reading pos 2, looking for pos_next: 3 (pos_target: 3)
+093258:  * pos_to_zero() CALL
+093258:  * pos_to_zero()-INFO: start reading pos 2
+093258:  * pos_to_zero()-INFO: using default seven_max_steps 120
+093258:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+093258:  * pos_to_zero()-INFO: using ensure_zero: 250
+093300:  * pos_to_zero()-SUCCESS: found 0 after moving 356 steps, then moved 250 ensure_zero steps
+093300:  * zero_to_edge() CALL
+093313:  * zero_to_edge()-SUCCESS: moved 2887 steps reading zero in the allowed range
+093313: * set_position()-INFO: wait 2500ms
+093315: * set_position()-SUCCESS: pos (3) == pos_target (3)
+093315: * set_position()-INFO-DST: D23: 3493 steps
+093315: SUCCESS going to position 3
+093315: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 3  |  position_old: 3
+093315: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+093454: ---------------------------------------
+093454: [ CMD: GOTO 4 ]
+093454: * set_position()-INFO: trying to set pos_target: 4
+093454: set_direction(): 1-->7 (already in spin direction - return with no delay)
+093454: * set_position()-INFO: start reading pos 3, looking for pos_next: 4 (pos_target: 4)
+093454:  * pos_to_zero() CALL
+093454:  * pos_to_zero()-INFO: start reading pos 3
+093454:  * pos_to_zero()-INFO: using default seven_max_steps 120
+093454:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+093454:  * pos_to_zero()-INFO: using ensure_zero: 250
+093456:  * pos_to_zero()-SUCCESS: found 0 after moving 121 steps, then moved 250 ensure_zero steps
+093456:  * zero_to_edge() CALL
+093508:  * zero_to_edge()-SUCCESS: moved 2785 steps reading zero in the allowed range
+093508: * set_position()-INFO: wait 2500ms
+093510: * set_position()-SUCCESS: pos (4) == pos_target (4)
+093510: * set_position()-INFO-DST: D34: 3156 steps
+093510: SUCCESS going to position 4
+093510: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 4  |  position_old: 4
+093510: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+093649: ---------------------------------------
+093649: [ CMD: GOTO 5 ]
+093649: * set_position()-INFO: trying to set pos_target: 5
+093649: set_direction(): 1-->7 (already in spin direction - return with no delay)
+093649: * set_position()-INFO: start reading pos 4, looking for pos_next: 5 (pos_target: 5)
+093649:  * pos_to_zero() CALL
+093649:  * pos_to_zero()-INFO: start reading pos 4
+093649:  * pos_to_zero()-INFO: using default seven_max_steps 120
+093649:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+093649:  * pos_to_zero()-INFO: using ensure_zero: 250
+093650:  * pos_to_zero()-SUCCESS: found 0 after moving 79 steps, then moved 250 ensure_zero steps
+093650:  * zero_to_edge() CALL
+093702:  * zero_to_edge()-SUCCESS: moved 2777 steps reading zero in the allowed range
+093702: * set_position()-INFO: wait 2500ms
+093704: * set_position()-SUCCESS: pos (5) == pos_target (5)
+093704: * set_position()-INFO-DST: D45: 3106 steps
+093704: SUCCESS going to position 5
+093704: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+093704: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+093843: ---------------------------------------
+093843: [ CMD: GOTO 6 ]
+093843: * set_position()-INFO: trying to set pos_target: 6
+093843: set_direction(): 1-->7 (already in spin direction - return with no delay)
+093843: * set_position()-INFO: start reading pos 5, looking for pos_next: 6 (pos_target: 6)
+093843:  * pos_to_zero() CALL
+093843:  * pos_to_zero()-INFO: start reading pos 5
+093843:  * pos_to_zero()-INFO: using default seven_max_steps 120
+093843:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+093843:  * pos_to_zero()-INFO: using ensure_zero: 250
+093844:  * pos_to_zero()-SUCCESS: found 0 after moving 88 steps, then moved 250 ensure_zero steps
+093844:  * zero_to_edge() CALL
+093856:  * zero_to_edge()-SUCCESS: moved 2837 steps reading zero in the allowed range
+093856: * set_position()-INFO: wait 2500ms
+093858: * set_position()-SUCCESS: pos (6) == pos_target (6)
+093858: * set_position()-INFO-DST: D56: 3175 steps
+093858: SUCCESS going to position 6
+093858: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 6  |  position_old: 6
+093858: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+094038: ---------------------------------------
+094038: [ CMD: GOTO 5 ]
+094038: * set_position()-INFO: trying to set pos_target: 5
+094040: set_direction(): 7-->1 
+094040: * set_position()-INFO: start reading pos 6, looking for pos_next: 5 (pos_target: 5)
+094040:  * pos_to_zero() CALL
+094040:  * pos_to_zero()-INFO: start reading pos 6
+094040:  * pos_to_zero()-INFO: using default seven_max_steps 120
+094040:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+094040:  * pos_to_zero()-INFO: using ensure_zero: 325
+094043:  * pos_to_zero()-SUCCESS: found 0 after moving 298 steps, then moved 325 ensure_zero steps
+094043:  * zero_to_edge() CALL
+094055:  * zero_to_edge()-SUCCESS: moved 2875 steps reading zero in the allowed range
+094055: * set_position()-INFO: wait 2500ms
+094057: * set_position()-SUCCESS: pos (5) == pos_target (5)
+094057: * set_position()-INFO-DST: D65: 3498 steps
+094057: SUCCESS going to position 5
+094057: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+094057: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+094237: ---------------------------------------
+094237: [ CMD: GOTO 4 ]
+094237: * set_position()-INFO: trying to set pos_target: 4
+094237: set_direction(): 7-->1 (already in spin direction - return with no delay)
+094237: * set_position()-INFO: start reading pos 5, looking for pos_next: 4 (pos_target: 4)
+094237:  * pos_to_zero() CALL
+094237:  * pos_to_zero()-INFO: start reading pos 5
+094237:  * pos_to_zero()-INFO: using default seven_max_steps 120
+094237:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+094237:  * pos_to_zero()-INFO: using ensure_zero: 325
+094239:  * pos_to_zero()-SUCCESS: found 0 after moving 148 steps, then moved 325 ensure_zero steps
+094239:  * zero_to_edge() CALL
+094250:  * zero_to_edge()-SUCCESS: moved 2715 steps reading zero in the allowed range
+094250: * set_position()-INFO: wait 2500ms
+094253: * set_position()-SUCCESS: pos (4) == pos_target (4)
+094253: * set_position()-INFO-DST: D54: 3188 steps
+094253: SUCCESS going to position 4
+094253: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 4  |  position_old: 4
+094253: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+094431: ---------------------------------------
+094431: [ CMD: GOTO 3 ]
+094431: * set_position()-INFO: trying to set pos_target: 3
+094431: set_direction(): 7-->1 (already in spin direction - return with no delay)
+094431: * set_position()-INFO: start reading pos 4, looking for pos_next: 3 (pos_target: 3)
+094431:  * pos_to_zero() CALL
+094431:  * pos_to_zero()-INFO: start reading pos 4
+094431:  * pos_to_zero()-INFO: using default seven_max_steps 120
+094431:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+094431:  * pos_to_zero()-INFO: using ensure_zero: 325
+094433:  * pos_to_zero()-SUCCESS: found 0 after moving 144 steps, then moved 325 ensure_zero steps
+094433:  * zero_to_edge() CALL
+094444:  * zero_to_edge()-SUCCESS: moved 2581 steps reading zero in the allowed range
+094444: * set_position()-INFO: wait 2500ms
+094446: * set_position()-SUCCESS: pos (3) == pos_target (3)
+094446: * set_position()-INFO-DST: D43: 3050 steps
+094446: SUCCESS going to position 3
+094446: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 3  |  position_old: 3
+094446: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+094626: ---------------------------------------
+094626: [ CMD: GOTO 2 ]
+094626: * set_position()-INFO: trying to set pos_target: 2
+094626: set_direction(): 7-->1 (already in spin direction - return with no delay)
+094626: * set_position()-INFO: start reading pos 3, looking for pos_next: 2 (pos_target: 2)
+094626:  * pos_to_zero() CALL
+094626:  * pos_to_zero()-INFO: start reading pos 3
+094626:  * pos_to_zero()-INFO: using default seven_max_steps 120
+094626:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+094626:  * pos_to_zero()-INFO: using ensure_zero: 325
+094628:  * pos_to_zero()-SUCCESS: found 0 after moving 123 steps, then moved 325 ensure_zero steps
+094628:  * zero_to_edge() CALL
+094640:  * zero_to_edge()-SUCCESS: moved 2809 steps reading zero in the allowed range
+094640: * set_position()-INFO: wait 2500ms
+094642: * set_position()-SUCCESS: pos (2) == pos_target (2)
+094642: * set_position()-INFO-DST: D32: 3257 steps
+094642: SUCCESS going to position 2
+094642: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 2  |  position_old: 2
+094642: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+094823: ---------------------------------------
+094823: [ CMD: GOTO 3 ]
+094823: * set_position()-INFO: trying to set pos_target: 3
+094825: set_direction(): 1-->7 
+094825: * set_position()-INFO: start reading pos 2, looking for pos_next: 3 (pos_target: 3)
+094825:  * pos_to_zero() CALL
+094825:  * pos_to_zero()-INFO: start reading pos 2
+094825:  * pos_to_zero()-INFO: using default seven_max_steps 120
+094825:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+094825:  * pos_to_zero()-INFO: using ensure_zero: 250
+094828:  * pos_to_zero()-SUCCESS: found 0 after moving 448 steps, then moved 250 ensure_zero steps
+094828:  * zero_to_edge() CALL
+094840:  * zero_to_edge()-SUCCESS: moved 2858 steps reading zero in the allowed range
+094840: * set_position()-INFO: wait 2500ms
+094842: * set_position()-SUCCESS: pos (3) == pos_target (3)
+094842: * set_position()-INFO-DST: D23: 3556 steps
+094842: SUCCESS going to position 3
+094842: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 3  |  position_old: 3
+094842: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+095021: ---------------------------------------
+095021: [ CMD: GOTO 4 ]
+095021: * set_position()-INFO: trying to set pos_target: 4
+095021: set_direction(): 1-->7 (already in spin direction - return with no delay)
+095021: * set_position()-INFO: start reading pos 3, looking for pos_next: 4 (pos_target: 4)
+095021:  * pos_to_zero() CALL
+095021:  * pos_to_zero()-INFO: start reading pos 3
+095021:  * pos_to_zero()-INFO: using default seven_max_steps 120
+095021:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+095021:  * pos_to_zero()-INFO: using ensure_zero: 250
+095022:  * pos_to_zero()-SUCCESS: found 0 after moving 157 steps, then moved 250 ensure_zero steps
+095022:  * zero_to_edge() CALL
+095034:  * zero_to_edge()-SUCCESS: moved 2748 steps reading zero in the allowed range
+095034: * set_position()-INFO: wait 2500ms
+095036: * set_position()-SUCCESS: pos (4) == pos_target (4)
+095036: * set_position()-INFO-DST: D34: 3155 steps
+095036: SUCCESS going to position 4
+095036: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 4  |  position_old: 4
+095036: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+095216: ---------------------------------------
+095216: [ CMD: GOTO 5 ]
+095216: * set_position()-INFO: trying to set pos_target: 5
+095216: set_direction(): 1-->7 (already in spin direction - return with no delay)
+095216: * set_position()-INFO: start reading pos 4, looking for pos_next: 5 (pos_target: 5)
+095216:  * pos_to_zero() CALL
+095216:  * pos_to_zero()-INFO: start reading pos 4
+095216:  * pos_to_zero()-INFO: using default seven_max_steps 120
+095216:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+095216:  * pos_to_zero()-INFO: using ensure_zero: 250
+095217:  * pos_to_zero()-SUCCESS: found 0 after moving 104 steps, then moved 250 ensure_zero steps
+095217:  * zero_to_edge() CALL
+095229:  * zero_to_edge()-SUCCESS: moved 2743 steps reading zero in the allowed range
+095229: * set_position()-INFO: wait 2500ms
+095231: * set_position()-SUCCESS: pos (5) == pos_target (5)
+095231: * set_position()-INFO-DST: D45: 3097 steps
+095231: SUCCESS going to position 5
+095231: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+095231: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+095411: ---------------------------------------
+095411: [ CMD: GOTO 6 ]
+095411: * set_position()-INFO: trying to set pos_target: 6
+095411: set_direction(): 1-->7 (already in spin direction - return with no delay)
+095411: * set_position()-INFO: start reading pos 5, looking for pos_next: 6 (pos_target: 6)
+095411:  * pos_to_zero() CALL
+095411:  * pos_to_zero()-INFO: start reading pos 5
+095411:  * pos_to_zero()-INFO: using default seven_max_steps 120
+095411:   * ensure_zero_helper()-INFO: using ensure_zero: 250 (ENSURE_ZERO+BACKSLASH_STEPS)
+095411:  * pos_to_zero()-INFO: using ensure_zero: 250
+095413:  * pos_to_zero()-SUCCESS: found 0 after moving 84 steps, then moved 250 ensure_zero steps
+095413:  * zero_to_edge() CALL
+095425:  * zero_to_edge()-SUCCESS: moved 2849 steps reading zero in the allowed range
+095425: * set_position()-INFO: wait 2500ms
+095427: * set_position()-SUCCESS: pos (6) == pos_target (6)
+095427: * set_position()-INFO-DST: D56: 3183 steps
+095427: SUCCESS going to position 6
+095427: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 6  |  position_old: 6
+095427: [Operating Vars]	 direction: 0 (1-->7)	 timedel [s]: 0.002000 (250.00 pps)
+095607: ---------------------------------------
+095607: [ CMD: GOTO 5 ]
+095607: * set_position()-INFO: trying to set pos_target: 5
+095608: set_direction(): 7-->1 
+095608: * set_position()-INFO: start reading pos 6, looking for pos_next: 5 (pos_target: 5)
+095608:  * pos_to_zero() CALL
+095608:  * pos_to_zero()-INFO: start reading pos 6
+095608:  * pos_to_zero()-INFO: using default seven_max_steps 120
+095608:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+095608:  * pos_to_zero()-INFO: using ensure_zero: 325
+095611:  * pos_to_zero()-SUCCESS: found 0 after moving 280 steps, then moved 325 ensure_zero steps
+095611:  * zero_to_edge() CALL
+095623:  * zero_to_edge()-SUCCESS: moved 2858 steps reading zero in the allowed range
+095623: * set_position()-INFO: wait 2500ms
+095626: * set_position()-INFO: still pos (4) != pos_target (5) after waiting some time. Will try to enter depper in position using search method 1
+095626:  * edge_to_pos() CALL (using search_method: 1)
+095626:  * edge_to_pos()-INFO: using STEPS_INTO_POS: 3 steps (15 percent of default POS_STEPS[4])
+095626:  * edge_to_pos()-SUCCESS: pos 5 was found 3 times (STEPS_INTO_POS) after moving 8 steps
+095626: * set_position()-INFO: wait 2500ms more
+095628: * set_position()-SUCCESS: pos (5) == pos_target (5)
+095628: * set_position()-INFO-DST: D65: 3470 steps
+095628: SUCCESS going to position 5
+095628: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 5  |  position_old: 5
+095628: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)
+095807: ---------------------------------------
+095807: [ CMD: GOTO 4 ]
+095807: * set_position()-INFO: trying to set pos_target: 4
+095807: set_direction(): 7-->1 (already in spin direction - return with no delay)
+095807: * set_position()-INFO: start reading pos 5, looking for pos_next: 4 (pos_target: 4)
+095807:  * pos_to_zero() CALL
+095807:  * pos_to_zero()-INFO: start reading pos 5
+095807:  * pos_to_zero()-INFO: using default seven_max_steps 120
+095807:   * ensure_zero_helper()-INFO: using ensure_zero: 325 (ENSURE_ZERO+BACKSLASH_STEPS)*1.3
+095807:  * pos_to_zero()-INFO: using ensure_zero: 325
+095809:  * pos_to_zero()-SUCCESS: found 0 after moving 173 steps, then moved 325 ensure_zero steps
+095809:  * zero_to_edge() CALL
+095820:  * zero_to_edge()-SUCCESS: moved 2678 steps reading zero in the allowed range
+095820: * set_position()-INFO: wait 2500ms
+095823: * set_position()-SUCCESS: pos (4) == pos_target (4)
+095823: * set_position()-INFO-DST: D54: 3176 steps
+095823: SUCCESS going to position 4
+095823: [Status Vars]		 halt: False  |  engaged: True  |  try_engage: False  |  increase_seven_steps_flag: False  |  pos: 4  |  position_old: 4
+095823: [Operating Vars]	 direction: 1 (7-->1)	 timedel [s]: 0.002000 (250.00 pps)

@@ -1,0 +1,3 @@
+outcome,n_total,mean_rotation_time,median_rotation_time,std_rotation_time
+success,307,21.49185667752443,16.0,12.66207366832402
+failure,14,41.5,39.0,11.121086791702124

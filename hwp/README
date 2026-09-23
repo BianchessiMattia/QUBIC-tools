@@ -1,0 +1,16 @@
+La cartella log contiene i log file in formato .txt del server del'hwp suddivisi per mese.
+
+- log_parser.py effettua il parsing di un singolo log file. L'output è un file .csv nella stessa cartella del log file.
+
+- aggregate_commands.py unisce più parsed log file in un unico parsed log file
+es: python3 aggregate_commands.py log/08
+
+- commands_analysis.py effettua l'analisi statistica di un parsed log file nel formato restituito da aggregate_commands.py
+
+- rotation_time_statistics.py calcola le statistiche del tempo di rotazione dell'hwp leggendo un singolo parsed log file. L'output dovrebbe essere incollato in rotation_time.txt
+
+- plot_rotation_time.py plotta l'andamento del tempo di rotazione dell'hwp leggendo le informazioni contenutein rotation_time.txt
+
+- plot_performance_analysis.py plotta l'andamento della percentuale di fallimenti dell'hwp leggendo le informazioni contenute in performance.txt
+
+

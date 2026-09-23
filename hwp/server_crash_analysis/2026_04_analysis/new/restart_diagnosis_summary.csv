@@ -1,0 +1,4 @@
+group,n_total,n_overshoot,pct_overshoot,n_undershoot,pct_undershoot,n_unknown,pct_unknown
+all,40,11,27.5,23,57.5,6,15.0
+direction_changed=False,33,6,18.181818181818183,22,66.66666666666667,5,15.151515151515152
+direction_changed=True,7,5,71.42857142857143,1,14.285714285714286,1,14.285714285714286

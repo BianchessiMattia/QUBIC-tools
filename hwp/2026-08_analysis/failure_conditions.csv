@@ -1,0 +1,13 @@
+condition,n_total,n_failure,failure_rate_pct,n_server_restart,pct_server_restart,n_engage_failed,pct_engage_failed,n_second_attempt_failed,pct_second_attempt_failed
+overall,2970,8,0.26936026936026936,0,0.0,7,87.5,1,12.5
+recovered_after_restart = True,0,0,nan,0,nan,0,nan,0,nan
+recovered_after_restart = False,2970,8,0.26936026936026936,0,0.0,7,87.5,1,12.5
+direction_changed = True,829,6,0.7237635705669482,0,0.0,5,83.33333333333333,1,16.666666666666668
+direction_changed = False,2141,2,0.09341429238673517,0,0.0,2,100.0,0,0.0
+target position = 1,18,0,0.0,0,nan,0,nan,0,nan
+target position = 2,347,2,0.5763688760806917,0,0.0,2,100.0,0,0.0
+target position = 3,690,1,0.14492753623188406,0,0.0,1,100.0,0,0.0
+target position = 4,743,1,0.13458950201884254,0,0.0,1,100.0,0,0.0
+target position = 5,777,3,0.3861003861003861,0,0.0,3,100.0,0,0.0
+target position = 6,395,1,0.25316455696202533,0,0.0,0,0.0,1,100.0
+target position = 7,0,0,nan,0,nan,0,nan,0,nan
