@@ -2,15 +2,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-from qubic_sys.hk_utilities import download_groups, read_hk_file, HK_QUANTITIES
+from qubic_sys.hk_utilities import download_groups, read_hk_file, HK_QUANTITIES, plot_temperature
 
 from my_themes import set_theme, get_color, apply_theme
 from plot_functions import plot_flags, on_click
-set_theme('publication')
+set_theme('terminal')
 
 download_groups(['pt'])
 
-start_date = np.datetime64('2026-09-20 00:00:00')
+start_date = np.datetime64('2026-10-01 00:00:00')
 #end_date = np.datetime64('2026-10-06 10:00:00')
 end_date = np.datetime64('now')
 
@@ -31,20 +31,9 @@ for quantity in selected_quantities:
         'date': date,
     }
 
-plt.ion()
-fig, ax = plt.subplots()
-fig.autofmt_xdate()
+plot_temperature(data, 'Pulse tube temperature diagnostic')
 
-for t in data.keys():
-    ax.plot(data[t]['date'], data[t]['temperature'], marker='.', ls='none', label=t)
-
-ax.set_ylim(2.5,20)
-ax.set_ylabel('Temperature [K]')
-ax.set_xlabel('Date')
-plt.legend(loc='upper left')
-plt.title('Pulse Tube temperature diagnostic')
-
-plt.savefig('1.pdf', bbox_inches='tight')
+plt.savefig(f'figures/pt_{end_date}.png', dpi=300)
 
 plt.connect('button_press_event', on_click)
 

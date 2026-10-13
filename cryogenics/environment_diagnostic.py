@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-from hk_utilities import download_groups, read_hk_file, HK_QUANTITIES
+from qubic_sys.hk_utilities import download_groups, read_hk_file, HK_QUANTITIES
 
 from my_themes import set_theme, get_color, apply_theme
 from plot_functions import plot_flags, on_click
@@ -13,9 +13,9 @@ download_groups(['environment'])
 start_date = np.datetime64('2026-09-20 00:00:00')
 #end_date = np.datetime64('2026-10-06 10:00:00')
 end_date = np.datetime64('now')
+data = {}
 
 # Pressure inside the cryostat
-data = {}
 dat = read_hk_file(HK_QUANTITIES['environment']['pressure'])
 rangemask = (dat[0] >= start_date.astype(float)) & (dat[0] <= end_date.astype(float))
 time = dat[0][rangemask]
