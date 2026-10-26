@@ -10,7 +10,7 @@ set_theme('publication')
 
 download_groups(['environment'])
 
-start_date = np.datetime64('2026-09-20 00:00:00')
+start_date = np.datetime64('2026-10-01 00:00:00')
 #end_date = np.datetime64('2026-10-06 10:00:00')
 end_date = np.datetime64('now')
 data = {}
