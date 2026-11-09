@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qubic_sys"
+version = "1.0.0"
+dependencies = ["qubicpack"]
+authors = [
+  { name="Mattia Bianchessi", email="mbianchess@apc.in2p3.fr" },
+]
+
+[project.scripts]
+download_hk = "qubic_sys.download_hk:main"
+
+[tool.setuptools]
+packages = ["qubic_sys"]

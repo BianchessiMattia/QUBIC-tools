@@ -1,0 +1,2 @@
+[console_scripts]
+download_hk = qubic_sys.download_hk:main
