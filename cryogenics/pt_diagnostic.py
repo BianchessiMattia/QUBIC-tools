@@ -10,11 +10,11 @@ set_theme('terminal')
 
 download_groups(['pt'])
 
-start_date = np.datetime64('2026-10-01 00:00:00')
+start_date = np.datetime64('2026-10-15 00:00:00')
 #end_date = np.datetime64('2026-10-06 10:00:00')
 end_date = np.datetime64('now')
 
-selected_quantities = ['PT2_S2_CH', 'PT2_S2', 'fridge_plate']
+selected_quantities = ['PT2_S2_CH', 'PT2_S2'] #, 'fridge_plate']
 data = {}
 for quantity in selected_quantities:
     data[quantity] = load_hk(HK_QUANTITIES['pt'][quantity], start_date, end_date)

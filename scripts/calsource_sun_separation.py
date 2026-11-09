@@ -13,13 +13,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from my_themes import set_theme
+from plot_functions import on_click
 set_theme('terminal')
 
 # Observing site (Alto Chorrillos)
 SITE = EarthLocation(lat=-24.18333 * u.deg, lon=-66.466666*u.deg)
 
 # Time grid: 7 hours starting at start_time, sampled every 5 minutes
-start_time = Time('2026-10-23 13:00:00')
+start_time = Time('2026-10-27 13:00:00')
 time = start_time + np.arange(0,7*60,5) * u.min
 
 # Sun position as a function of time, expressed in the local Alt-Az frame
@@ -47,6 +48,7 @@ ax.set_xlabel('Time [UTC]')
 ax.set_ylabel('Angular separation')
 ax.set_title(f'Sun - Telescope angular separation / elevation = {elevation}')
 ax.legend()
+plt.connect('button_press_event', on_click)
 plt.savefig(f'./sun_angular_separation_elevation_{elevation}.pdf', bbox_inches='tight')
 
 

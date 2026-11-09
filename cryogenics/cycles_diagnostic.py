@@ -12,8 +12,8 @@ set_theme('terminal')
 CYCLES_DIR = Path('/home/mattia/se/cryogenics/')
 
 
-start_date = np.datetime64('2026-10-01 00:00:00')
-#end_date = np.datetime64('2026-09-30 23:59:00')
+start_date = np.datetime64('2026-11-01 00:00:00')
+#end_date = np.datetime64('2026-03-11 23:59:00')
 end_date = np.datetime64('now')
 
 
