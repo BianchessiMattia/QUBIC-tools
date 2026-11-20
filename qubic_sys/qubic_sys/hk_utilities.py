@@ -2,6 +2,7 @@ import os
 import polars as pl 
 import numpy as np
 import matplotlib.pyplot as plt
+import re
 
 from qubicpack.housekeeping.utilities import download_hk
 
@@ -38,7 +39,15 @@ HK_QUANTITIES = {
         'weather_in': 'inside_weather', 
         'cryostat': 'CRYOSTAT',
     },
+    'compressors': {
+        'compressor1': 'compressor1_log', 
+        'compressor2': 'compressor2_log',
+    },
+
 }
+
+# Expected compressors log header
+COMPRESSOR_KEYS = ['T_He', 'Tout', 'Tin', 'Pin', 'Hours']
 
 
 def download_groups(groups):
@@ -90,6 +99,66 @@ def read_hk_file(filename):
     values = df.select(df.columns[1:]).to_numpy()
 
     return timestamps, values
+
+
+def read_compressor_log(filename, tstart=None, tend=None):
+    """
+    Read a pulse tube compressor log file.
+
+    Parameters
+    ----------
+    filename : str
+        Full path to the compressor log file.
+    tstart, tend : numpy.datetime64, optional
+        Naive UTC bounds of the time window to load (inclusive).
+
+    Returns
+    -------
+    dates : ndarray of datetime64[ms]
+        Naive UTC timestamps of all valid lines (online and OFFLINE).
+    data : dict of ndarray
+        One float64 array per key in COMPRESSOR_KEYS; NaN when the compressor
+        is OFFLINE.
+    """
+    filename = filename + '.txt'
+    filename = SAVE_DIR + filename
+    if not os.path.isfile(filename):
+        print('ERROR! File not found: %s' % filename)
+        return None, None
+
+    # Read each line as a single string column
+    df = pl.read_csv(filename, has_header=False, new_columns=['line'], separator='\x1f', quote_char=None, infer_schema_length=0)
+
+    # The date is always the first 19 characters; strict=False turns corrupted lines into null, and they are dropped
+    df = df.with_columns(
+        pl.col('line').str.slice(0, 19).str.to_datetime('%Y-%m-%dT%H:%M:%S', time_unit='ms', strict=False).alias('date'),
+        pl.col('line').str.contains('OFFLINE').alias('offline'),
+    ).drop_nulls('date')
+
+    # Apply the time window
+    if tstart is not None:
+        df = df.filter(pl.col('date') >= tstart)
+    if tend is not None:
+        df = df.filter(pl.col('date') <= tend)
+
+    # Warn if the keys of the first online line differ from the expected ones
+    online_lines = df.filter(~pl.col('offline'))['line']
+    if online_lines.len() > 0:
+        found = re.findall(r'(\w+)=', online_lines[0])
+        if found != COMPRESSOR_KEYS:
+            print(f'{filename}: keys {found} differ from expected {COMPRESSOR_KEYS}')
+
+    # Extract each key; OFFLINE lines carry no key=value token, so they yield null
+    df = df.with_columns(
+        [pl.col('line').str.extract(rf'\b{k}=(\S+)', 1).cast(pl.Float64, strict=False).alias(k) for k in COMPRESSOR_KEYS]
+    )
+
+    # Discard truncated online lines
+    df = df.filter(pl.col('offline') | pl.all_horizontal(pl.col(COMPRESSOR_KEYS).is_not_null()))
+
+    dates = df['date'].to_numpy()
+    data = {k: df[k].to_numpy() for k in COMPRESSOR_KEYS}
+    return dates, data
 
 
 def plot_temperature(data, title=None):
@@ -156,7 +225,7 @@ def load_fridge_cycles(csv_path, start, end):
     starts, ends : ndarray of datetime64[s]
         Start and end times of the selected cycles.
     """
-    cycles = pl.read_csv(csv_path, separator="\t", has_header=True, infer_schema=False, truncate_ragged_lines=True)
+    cycles = pl.read_csv(csv_path, separator="\t", has_header=True, infer_schema=200, truncate_ragged_lines=True)
     starts = cycles["start_utc"].to_numpy().astype('datetime64[s]')
     ends = cycles["end_utc"].to_numpy().astype('datetime64[s]')
 
